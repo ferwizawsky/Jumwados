@@ -645,6 +645,24 @@
         "name": "Asset 83.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 44.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 45.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -656,6 +674,16 @@
       "name": "tele_home_pos",
       "type": "string",
       "value": "0"
+    },
+    {
+      "name": "limitController",
+      "type": "string",
+      "value": "45"
+    },
+    {
+      "name": "speedPlayer",
+      "type": "string",
+      "value": "300"
     }
   ],
   "layouts": [
@@ -1121,7 +1149,7 @@
           "persistentUuid": "56aef4fa-a4cb-454b-99ef-532f567e1869",
           "width": 0,
           "x": 141,
-          "y": 71,
+          "y": 61,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1488,7 +1516,7 @@
               "parameters": [
                 "title",
                 "=",
-                "-160"
+                "-100"
               ],
               "subInstructions": []
             }
@@ -1709,6 +1737,37 @@
               "events": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"map12\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -1760,7 +1819,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8100000000000004,
+        "zoomFactor": 0.21,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2172,8 +2231,8 @@
           "name": "textPertanyaan",
           "persistentUuid": "f12b68d6-a08f-45d9-acb9-da3284f7e22b",
           "width": 0,
-          "x": 19,
-          "y": 286,
+          "x": 849,
+          "y": 212,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -2188,8 +2247,8 @@
           "name": "textPertanyaan",
           "persistentUuid": "c1dbce6f-9a39-4b32-b863-8f7d244877e1",
           "width": 0,
-          "x": 17,
-          "y": 376,
+          "x": 849,
+          "y": 276,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -2204,8 +2263,8 @@
           "name": "textPertanyaan",
           "persistentUuid": "9b413945-469f-40c1-9b8d-290ce29a2d44",
           "width": 0,
-          "x": 19,
-          "y": 465,
+          "x": 850,
+          "y": 93,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -2220,8 +2279,8 @@
           "name": "textPertanyaan",
           "persistentUuid": "4bbd5076-5019-4407-b099-86d18257f3a5",
           "width": 0,
-          "x": 16,
-          "y": 187,
+          "x": 847,
+          "y": 155,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -3778,6 +3837,72 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 168,
+          "layer": "GUI",
+          "locked": false,
+          "name": "analog_out",
+          "persistentUuid": "8b54e903-2bf5-4b34-a23c-d7f54686c253",
+          "width": 168,
+          "x": 150,
+          "y": 407.1101379394531,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "rest",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "x",
+                  "type": "string",
+                  "value": "150"
+                },
+                {
+                  "name": "y",
+                  "type": "string",
+                  "value": "407,1101379394531"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 67,
+          "layer": "GUI",
+          "locked": false,
+          "name": "analog_in",
+          "persistentUuid": "9b8ca53a-24d5-44a6-a7bc-f1a1d665a7e1",
+          "width": 67,
+          "x": 150.5,
+          "y": 406.8681335449219,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "rest",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "x",
+                  "type": "string",
+                  "value": "150,5"
+                },
+                {
+                  "name": "y",
+                  "type": "string",
+                  "value": "406,8681335449219"
+                }
+              ]
+            }
+          ]
         }
       ],
       "objects": [
@@ -4842,6 +4967,92 @@
               ]
             }
           ]
+        },
+        {
+          "name": "analog_in",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 45.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 45.5,
+                        "y": 46
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "analog_out",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 44.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 113.5,
+                        "y": 115
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -5200,6 +5411,416 @@
               "events": []
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Analog Control",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "analog_in",
+                        "analog_in",
+                        "yes",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "analog_out",
+                        "!=",
+                        "analog_in.X()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "analog_out",
+                        "!=",
+                        "analog_in.Y()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    "=",
+                    "analog_out.Variable(rest.x)",
+                    "=",
+                    "analog_out.Variable(rest.y)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    "isFire",
+                    "False"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    "analog_in",
+                    "yes",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    ">=",
+                    "analog_out.Variable(rest.x) + GlobalVariable(limitController)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    "=",
+                    "analog_out.Variable(rest.x) + GlobalVariable(limitController)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "analog_out",
+                    "isFire",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "player",
+                    "isrun",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "player",
+                    "GlobalVariable(speedPlayer)",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "player",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    "<=",
+                    "analog_out.Variable(rest.x) - GlobalVariable(limitController)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    "=",
+                    "analog_out.Variable(rest.x) - GlobalVariable(limitController)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "analog_out",
+                    "isFire",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "player",
+                    "isrun",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "player",
+                    "GlobalVariable(speedPlayer) * -1",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "player",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    ">=",
+                    "analog_out.Variable(rest.y) + GlobalVariable(limitController)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    "=",
+                    "analog_out.Variable(rest.y) + GlobalVariable(limitController)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "analog_out",
+                    "isFire",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "player",
+                    "0",
+                    "GlobalVariable(speedPlayer)",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "player",
+                    "isrun",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    "<=",
+                    "analog_out.Variable(rest.y) - GlobalVariable(limitController)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    "=",
+                    "analog_out.Variable(rest.y) - GlobalVariable(limitController)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    "isFire",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "player",
+                    "isrun",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "player",
+                    "0",
+                    "GlobalVariable(speedPlayer) * -1",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
         },
         {
           "folded": true,
