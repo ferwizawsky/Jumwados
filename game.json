@@ -663,6 +663,33 @@
         "name": "Asset 45.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 27.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite3-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite3-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite3-1-0.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1819,7 +1846,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.21,
+        "zoomFactor": 0.41,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1873,6 +1900,18 @@
           "name": "QuizSelesai",
           "type": "string",
           "value": "0"
+        },
+        {
+          "folded": true,
+          "name": "showGUIBT",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "disableMove",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -1885,9 +1924,9 @@
           "name": "player",
           "persistentUuid": "c023472e-46d0-4acd-95c1-b10faa7ebb1c",
           "width": 80,
-          "x": 2116.761962890625,
-          "y": -432.9604797363281,
-          "zOrder": 4,
+          "x": 725.7928466796875,
+          "y": -55.862674713134766,
+          "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2128,15 +2167,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 110,
           "layer": "GUI",
           "locked": false,
           "name": "gui_bt",
           "persistentUuid": "bccf56d7-03c0-4cd3-bda8-8a66672be500",
-          "width": 0,
-          "x": 1428,
-          "y": 763.5,
+          "width": 110,
+          "x": 833.611083984375,
+          "y": 432.3055419921875,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -2179,7 +2218,7 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "locked": false,
+          "locked": true,
           "name": "NewSprite",
           "persistentUuid": "22eb7b87-760e-4408-864d-9c43d7efec9e",
           "width": 0,
@@ -2199,8 +2238,8 @@
           "name": "textPertanyaan",
           "persistentUuid": "f2607a34-1edc-4ee8-a7be-96e11741a715",
           "width": 0,
-          "x": 717,
-          "y": 379,
+          "x": 1069,
+          "y": 928,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -2215,8 +2254,8 @@
           "name": "house",
           "persistentUuid": "b842c83d-5153-45de-805b-2057fa18c334",
           "width": 0,
-          "x": 601,
-          "y": 574.5,
+          "x": 1120,
+          "y": 1131.5,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -3903,6 +3942,70 @@
               ]
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "npc1",
+          "persistentUuid": "73e9de79-8873-41ae-8707-9dcff3b4aae6",
+          "width": 0,
+          "x": 910.9710693359375,
+          "y": -26.324539184570312,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 101.00000762939453,
+          "layer": "",
+          "locked": false,
+          "name": "nearEvent",
+          "persistentUuid": "9ddddc15-8dae-4832-8657-a3185a9dcd7c",
+          "width": 262,
+          "x": 2281.956787109375,
+          "y": -332.2917175292969,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 239,
+          "layer": "TextChatLayer",
+          "locked": false,
+          "name": "bgTextChat",
+          "persistentUuid": "6d1449ab-86e1-4f9b-8524-99446263e730",
+          "width": 1057,
+          "x": -42,
+          "y": 329,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "TextChatLayer",
+          "locked": false,
+          "name": "chatText",
+          "persistentUuid": "35005874-313c-4ae1-978f-06f1d3fda09d",
+          "width": 0,
+          "x": 28,
+          "y": 351,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4020,8 +4123,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 32.5,
-                        "y": 55.5
+                        "x": 49.603111267089844,
+                        "y": 99.96671295166016
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4056,8 +4159,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 32.5,
-                        "y": 55.5
+                        "x": 49.603111267089844,
+                        "y": 99.96671295166016
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4977,9 +5080,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -5053,6 +5156,172 @@
               ]
             }
           ]
+        },
+        {
+          "name": "npc1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Asset 27.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 33.9710578918457,
+                        "y": 79.67546081542969
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6.07011604309082,
+                            "y": 69.0465316772461
+                          },
+                          {
+                            "x": 66.65502166748047,
+                            "y": 70.10942077636719
+                          },
+                          {
+                            "x": 66.12357330322266,
+                            "y": 103.32483673095703
+                          },
+                          {
+                            "x": 5.8043928146362305,
+                            "y": 103.32483673095703
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "nearEvent",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 31.74518394470215,
+                        "y": 32.13197708129883
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "bgTextChat",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "show",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite3-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "chatText",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Paktua\n\nEyyoo Nande nande Eyyoo Nande nande Eyyoo Nande nande Eyyoo Nande nande Eyyoo Nande nande \nEyyoo Nande nande Eyyoo Nande nande ",
+          "font": "Pixellari.ttf",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -5162,18 +5431,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "gui_bt",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "TextObject::SetOutline"
               },
               "parameters": [
@@ -5205,44 +5462,23 @@
                 "\"UpperEffect\""
               ],
               "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "inverted": true,
-                "value": "SystemInfo::IsMobile"
+                "inverted": false,
+                "value": "MettreXY"
               },
-              "parameters": [],
+              "parameters": [
+                "nearEvent",
+                "=",
+                "player.X()",
+                "=",
+                "player.Y()"
+              ],
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "gui_bt",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
+          "events": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -5411,6 +5647,192 @@
               "events": []
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "TextChat Event",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "bgTextChat",
+                    "show",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "bgTextChat",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "bgTextChat",
+                    "=",
+                    "200"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "analog_in"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "analog_out"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "gui_bt"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "disableMove",
+                    "True"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "chatText",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "bgTextChat",
+                    "show",
+                    "False"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "analog_in",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "bgTextChat"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "analog_out",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "disableMove",
+                    "False"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "chatText"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -5970,6 +6392,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "player",
+                "npc1",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "TiledSpriteObject::SetOpacity"
               },
               "parameters": [
@@ -6520,18 +6954,89 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "showGUIBT",
+                    "False"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "nearEvent",
+                        "to_event",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "nearEvent",
+                        "npc1",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "player",
-                    "to_event",
-                    "",
-                    "",
-                    ""
+                    "showGUIBT",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "showGUIBT",
+                    "True"
                   ],
                   "subInstructions": []
                 }
@@ -6556,15 +7061,12 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
+                    "inverted": false,
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "player",
-                    "to_event",
-                    "",
-                    "",
-                    ""
+                    "showGUIBT",
+                    "False"
                   ],
                   "subInstructions": []
                 }
@@ -7989,21 +8491,20 @@
               },
               "parameters": [
                 "",
-                "w"
+                "Return"
               ],
               "subInstructions": []
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "inverted": false,
-                "value": "AddForceXY"
+                "value": "CollisionNP"
               },
               "parameters": [
-                "player",
-                "0",
-                "-300",
+                "nearEvent",
+                "npc1",
+                "",
+                "",
                 ""
               ],
               "subInstructions": []
@@ -8011,12 +8512,21 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SetObjectVariableAsBoolean"
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ToggleObjectVariableAsBoolean"
               },
               "parameters": [
-                "player",
-                "isrun",
-                "True"
+                "bgTextChat",
+                "show"
               ],
               "subInstructions": []
             }
@@ -8024,116 +8534,13 @@
           "events": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "s"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "player",
-                "0",
-                "+300",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "player",
-                "isrun",
-                "True"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "a"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "player",
-                "-300",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "player",
-                "pos",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "player",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "player",
-                "isrun",
-                "True"
-              ],
-              "subInstructions": []
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8141,161 +8548,361 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Timer"
+                    "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "",
-                    "0.2",
-                    "\"effecc1\""
+                    "disableMove",
+                    "False"
                   ],
                   "subInstructions": []
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "effecc1",
-                    "player.X()",
-                    "player.Y()+50",
-                    "\"\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "w"
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "player",
+                        "0",
+                        "-300",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "player",
+                        "isrun",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 },
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"effecc1\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "s"
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
-          "folded": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "d"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "player",
-                "300",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "player",
-                "pos",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "FlipX"
-              },
-              "parameters": [
-                "player",
-                "yes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "player",
-                "isrun",
-                "True"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Timer"
-                  },
-                  "parameters": [
-                    "",
-                    "0.2",
-                    "\"effecc1\""
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "player",
+                        "0",
+                        "+300",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "player",
+                        "isrun",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "effecc1",
-                    "player.X()",
-                    "player.Y()+50",
-                    "\"\""
-                  ],
-                  "subInstructions": []
+                  "events": []
                 },
                 {
-                  "type": {
-                    "inverted": false,
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"effecc1\""
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "a"
+                      ],
+                      "subInstructions": []
+                    }
                   ],
-                  "subInstructions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "player",
+                        "-300",
+                        "0",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "player",
+                        "pos",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "player",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "nearEvent",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "player",
+                        "isrun",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Timer"
+                          },
+                          "parameters": [
+                            "",
+                            "0.2",
+                            "\"effecc1\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "effecc1",
+                            "player.X()",
+                            "player.Y()+50",
+                            "\"\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"effecc1\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "d"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "player",
+                        "300",
+                        "0",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "player",
+                        "pos",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "player",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipX"
+                      },
+                      "parameters": [
+                        "nearEvent",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "player",
+                        "isrun",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Timer"
+                          },
+                          "parameters": [
+                            "",
+                            "0.2",
+                            "\"effecc1\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "effecc1",
+                            "player.X()",
+                            "player.Y()+50",
+                            "\"\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"effecc1\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -8359,6 +8966,17 @@
           "isLightingLayer": false,
           "name": "UpperEffect",
           "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 11,
+          "ambientLightColorG": 6040208,
+          "ambientLightColorR": 9964984,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "TextChatLayer",
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
