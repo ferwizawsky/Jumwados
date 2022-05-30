@@ -879,6 +879,42 @@
         "name": "Asset 24.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 26.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 21.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 22.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2792,7 +2828,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.01,
+        "zoomFactor": 0.10999999999999975,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2944,8 +2980,8 @@
           "name": "random_tree",
           "persistentUuid": "80fae388-88e9-4367-b951-41f1f4c0c675",
           "width": 378.797607421875,
-          "x": -2231.797607421875,
-          "y": 371,
+          "x": -2014.797607421875,
+          "y": 182,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -4898,8 +4934,8 @@
           "name": "npc1",
           "persistentUuid": "73e9de79-8873-41ae-8707-9dcff3b4aae6",
           "width": 107.00010681152344,
-          "x": 3095.6796875,
-          "y": -1063.3729248046875,
+          "x": 2895.6796875,
+          "y": 204.55482482910156,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
@@ -5205,6 +5241,326 @@
           "x": 367.05377197265625,
           "y": 895.829833984375,
           "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_bat",
+          "persistentUuid": "f1281c80-3e6c-4971-98ac-8023ab67170b",
+          "width": 0,
+          "x": 2245,
+          "y": -1199,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_bat",
+          "persistentUuid": "0b01b372-7b17-474e-95ec-cee028727f10",
+          "width": 0,
+          "x": 2527.608642578125,
+          "y": -1306.246337890625,
+          "zOrder": 74,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_bat",
+          "persistentUuid": "9119684e-6464-4f63-a2d0-d8e50e5cd9a3",
+          "width": 0,
+          "x": 3607.159423828125,
+          "y": -2429.0087890625,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_bat",
+          "persistentUuid": "fc83de41-9a27-4aef-8546-edee2fa61490",
+          "width": 0,
+          "x": 3562,
+          "y": -2084,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_bat",
+          "persistentUuid": "09b001b2-470f-4d2e-aae3-c85602cb0dee",
+          "width": 0,
+          "x": 3062,
+          "y": -2329,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_bat",
+          "persistentUuid": "02dfd986-1b6e-4b07-aec7-ce84faf99912",
+          "width": 0,
+          "x": 2413,
+          "y": -2168,
+          "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_bat",
+          "persistentUuid": "4fd2da35-e9f8-40f3-a591-0590b3fea146",
+          "width": 0,
+          "x": 3700,
+          "y": -1750,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_bat",
+          "persistentUuid": "baab31e0-5097-4eef-8d1c-32c9e6f28c28",
+          "width": 0,
+          "x": 1746,
+          "y": -926,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_bat",
+          "persistentUuid": "6b5a95ca-eb48-4453-9188-aa3a0a7916f4",
+          "width": 0,
+          "x": 2376.170166015625,
+          "y": -861.9802856445312,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_bat",
+          "persistentUuid": "0b27a328-a3ed-4860-99c2-aa97b66f4c3b",
+          "width": 0,
+          "x": 1785.2611083984375,
+          "y": -1449.859130859375,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_goblin",
+          "persistentUuid": "7b20737c-6b05-4302-82ec-1cf97634ee44",
+          "width": 0,
+          "x": 2594,
+          "y": -3727,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_goblin",
+          "persistentUuid": "8f6c1354-ce3e-457d-ad01-4014845a04ec",
+          "width": 0,
+          "x": 1006,
+          "y": -3418,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_goblin",
+          "persistentUuid": "7abaaecf-b56a-4a8f-b21d-87121b79c0d8",
+          "width": 0,
+          "x": 1394.3758544921875,
+          "y": -4970.75,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_goblin",
+          "persistentUuid": "2c4082a1-79b8-481e-92ab-4c3ef0480843",
+          "width": 0,
+          "x": 594.3757934570312,
+          "y": -4723.130859375,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_goblin",
+          "persistentUuid": "676ecffb-5d7b-4126-a4f7-c8afb6552ee7",
+          "width": 0,
+          "x": 1522.947265625,
+          "y": -4918.369140625,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_goblin",
+          "persistentUuid": "26c9eefb-374b-4390-ac2b-43dbe65c40e0",
+          "width": 0,
+          "x": 1322.947265625,
+          "y": -4865.98828125,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_goblin",
+          "persistentUuid": "200d2577-ad4f-487b-ba3a-4c17f9065b4c",
+          "width": 0,
+          "x": -29.433700561523438,
+          "y": -4475.51171875,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_goblin",
+          "persistentUuid": "ad1b0a75-eb7d-4202-9048-e4922de0ebd7",
+          "width": 0,
+          "x": 1484.85205078125,
+          "y": -3308.84521484375,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_goblin",
+          "persistentUuid": "a9add883-d860-4540-80e2-4227cda8b3c9",
+          "width": 0,
+          "x": 995.733642578125,
+          "y": -2704.7158203125,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "monster_goblin",
+          "persistentUuid": "2260022a-fe19-40ef-9639-55de4223f483",
+          "width": 0,
+          "x": 1829.0670166015625,
+          "y": -3271.382568359375,
+          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6949,7 +7305,7 @@
           ]
         },
         {
-          "name": "monster_lowo",
+          "name": "monster_bat",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -6963,79 +7319,98 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.5,
+                  "timeBetweenFrames": 0.30000001192092896,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "Asset 23.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 25.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 33.280513763427734,
-                        "y": 55.835052490234375
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 33.021080017089844,
-                        "y": 53.75958251953125
+                        "x": 0,
+                        "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4.742777347564697,
-                            "y": 11.731279373168945
-                          },
-                          {
-                            "x": 63.37485122680664,
-                            "y": 13.547317504882812
-                          },
-                          {
-                            "x": 61.558815002441406,
-                            "y": 55.835052490234375
-                          },
-                          {
-                            "x": 4.223909378051758,
-                            "y": 55.575618743896484
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     },
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "Asset 24.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 26.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 33.280513763427734,
-                        "y": 55.835052490234375
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
-                        "automatic": false,
+                        "automatic": true,
                         "name": "centre",
-                        "x": 33.021080017089844,
-                        "y": 53.75958251953125
+                        "x": 0,
+                        "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4.742777347564697,
-                            "y": 11.731279373168945
-                          },
-                          {
-                            "x": 63.37485122680664,
-                            "y": 13.547317504882812
-                          },
-                          {
-                            "x": 61.558815002441406,
-                            "y": 55.835052490234375
-                          },
-                          {
-                            "x": 4.223909378051758,
-                            "y": 55.575618743896484
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "monster_goblin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.4000000059604645,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 21.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 22.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
