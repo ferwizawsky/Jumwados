@@ -1359,7 +1359,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4800000000000001,
+        "zoomFactor": 0.2399999999999999,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1402,8 +1402,8 @@
           "name": "NewSprite",
           "persistentUuid": "8572089c-6678-43a3-aa41-160edf7e00c8",
           "width": 811.6119384765625,
-          "x": 268,
-          "y": 246,
+          "x": 262.3880615234375,
+          "y": 268,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -2787,7 +2787,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Panduan",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -2798,6 +2798,17 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "GUI",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7371304,
+          "ambientLightColorG": 6040208,
+          "ambientLightColorR": 10364816,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "CHAR",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -2828,7 +2839,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.10999999999999975,
+        "zoomFactor": 0.2099999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2899,7 +2910,7 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 94.78260803222656,
           "layer": "",
           "locked": false,
@@ -5071,15 +5082,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 165.92770385742188,
           "layer": "",
           "locked": false,
           "name": "npc1",
           "persistentUuid": "915027bf-84bf-45ad-8331-5db2c2214610",
           "width": 107.00010681152344,
-          "x": 3328.6796875,
-          "y": -435.37286376953125,
+          "x": 3086.970947265625,
+          "y": -799.3245239257812,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
