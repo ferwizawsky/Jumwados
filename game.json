@@ -2112,6 +2112,726 @@
         "name": "Asset 188.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1112.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1112.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 258.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 258.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "32.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "122.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "122.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "16.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "17.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "18.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "19.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "110.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "110.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "42.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "52.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "62.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "72.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "82.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "82.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "92.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "92.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "102.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "102.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "112.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "112.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "123.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "123.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "132.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "132.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "142.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "142.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "152.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "152.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "162.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "162.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "172.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "172.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "182.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "182.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "192.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "202.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "202.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "111.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "111.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "34.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "43.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "53.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "63.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "73.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "73.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "83.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "83.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "93.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "93.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "103.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "103.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "113.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "113.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "124.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "124.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "133.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "133.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "143.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "143.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "153.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "153.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "163.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "163.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "173.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "173.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "183.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "183.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "193.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "193.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "203.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "203.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "114.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "114.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "25.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "35.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "44.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "54.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "64.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "74.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "74.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "84.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "84.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "115.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "115.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "125.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "125.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "134.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "134.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "144.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "154.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "154.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "164.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "164.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "174.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "174.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "184.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "184.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "194.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "194.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "204.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "204.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4423,7 +5143,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2100000000000003,
+        "zoomFactor": 0.1900000000000003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5015,13 +5735,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalmembaca",
           "locked": false,
           "name": "jawabanmembaca",
           "persistentUuid": "8ed41acd-e12c-4cc6-9b81-abc512ed6ee6",
           "width": 0,
-          "x": 794,
-          "y": 366,
+          "x": 2055,
+          "y": 100,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -5031,13 +5751,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalmembaca",
           "locked": false,
           "name": "jawabanmembaca",
           "persistentUuid": "581665e3-682b-49e7-940e-40196da3a3bb",
           "width": 0,
-          "x": 636,
-          "y": 371,
+          "x": 1880,
+          "y": 97,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -5047,13 +5767,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalmembaca",
           "locked": false,
           "name": "jawabanmembaca",
           "persistentUuid": "6cdea761-c5cf-4535-b5fe-6ccd7aae4202",
           "width": 0,
-          "x": 474,
-          "y": 371,
+          "x": 1721,
+          "y": 93,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -5063,13 +5783,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalmembaca",
           "locked": false,
           "name": "soalmembaca",
           "persistentUuid": "7d312a9f-622f-413b-b9cf-e4e102a3e7b1",
           "width": 0,
-          "x": 183,
-          "y": 368,
+          "x": 1374,
+          "y": 72,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -5079,13 +5799,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalmembaca",
           "locked": false,
           "name": "NewSprite5",
           "persistentUuid": "63280c10-1363-43cf-8866-e3437dd7d1bc",
           "width": 0,
-          "x": -110,
-          "y": 291,
+          "x": 1095,
+          "y": -9,
           "zOrder": 117,
           "numberProperties": [],
           "stringProperties": [],
@@ -5111,13 +5831,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalperbandingan",
           "locked": false,
           "name": "soalbanding",
           "persistentUuid": "fdb69ea7-e2f0-46a5-9b37-550db00ff100",
           "width": 0,
-          "x": 1228,
-          "y": 493,
+          "x": 1247,
+          "y": 1616,
           "zOrder": 122,
           "numberProperties": [],
           "stringProperties": [],
@@ -5127,13 +5847,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalperbandingan",
           "locked": false,
           "name": "JAWABANBANDING",
           "persistentUuid": "733748ca-ca86-4108-a3a7-12e4bf135ae6",
           "width": 0,
-          "x": 1491,
-          "y": 445,
+          "x": 1680,
+          "y": 1582,
           "zOrder": 123,
           "numberProperties": [],
           "stringProperties": [],
@@ -5143,13 +5863,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalperkalian",
           "locked": false,
           "name": "JAWABANKALI",
           "persistentUuid": "38363ae7-fd21-4246-be06-7f1df8f088d9",
           "width": 0,
-          "x": 1272,
-          "y": 646,
+          "x": 1717,
+          "y": 371,
           "zOrder": 124,
           "numberProperties": [],
           "stringProperties": [],
@@ -5159,13 +5879,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalperkalian",
           "locked": false,
           "name": "SOALKALI",
           "persistentUuid": "6a3a23d6-7c67-46bf-b7a8-6f69497f8808",
           "width": 0,
-          "x": 1011,
-          "y": 707,
+          "x": 1315,
+          "y": 413,
           "zOrder": 125,
           "numberProperties": [],
           "stringProperties": [],
@@ -5175,13 +5895,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalpembagian",
           "locked": false,
           "name": "SOALBAGI",
           "persistentUuid": "347530f8-168a-4a95-95ec-97cf9f8d4b0e",
           "width": 0,
-          "x": 1129,
-          "y": 933,
+          "x": 1333,
+          "y": 1321,
           "zOrder": 126,
           "numberProperties": [],
           "stringProperties": [],
@@ -5191,13 +5911,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalpembagian",
           "locked": false,
           "name": "JAWABANBAGI",
           "persistentUuid": "4c529b92-f652-4dad-9cc2-aa1c5bc6a0f5",
           "width": 0,
-          "x": 1354,
-          "y": 889,
+          "x": 1696,
+          "y": 1295,
           "zOrder": 127,
           "numberProperties": [],
           "stringProperties": [],
@@ -5207,13 +5927,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalkurang",
           "locked": false,
           "name": "SOALKURANG",
           "persistentUuid": "201fc4de-4015-404a-87a8-d117c8c7fca2",
           "width": 0,
-          "x": 1133,
-          "y": 1270,
+          "x": 1162,
+          "y": 1013,
           "zOrder": 128,
           "numberProperties": [],
           "stringProperties": [],
@@ -5223,13 +5943,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soalkurang",
           "locked": false,
           "name": "JAWABANKURANG",
           "persistentUuid": "6f7770ad-703b-4edc-a4ad-e25552388b35",
           "width": 0,
-          "x": 1380,
-          "y": 1212,
+          "x": 1512,
+          "y": 955,
           "zOrder": 129,
           "numberProperties": [],
           "stringProperties": [],
@@ -5239,13 +5959,13 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soaltambah",
           "locked": false,
           "name": "SOALTAMBAH",
           "persistentUuid": "78b5c160-7d30-4cf0-b810-bdb972dc4e4f",
           "width": 0,
-          "x": 670,
-          "y": 1095,
+          "x": 1293,
+          "y": 742,
           "zOrder": 130,
           "numberProperties": [],
           "stringProperties": [],
@@ -5255,14 +5975,254 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "soaltambah",
           "locked": false,
           "name": "JAWABANTAMBAH",
           "persistentUuid": "ed0d4f83-894f-4d99-9cc5-069f11f42be3",
           "width": 0,
-          "x": 909,
-          "y": 1052,
+          "x": 1680,
+          "y": 689,
           "zOrder": 131,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalperbandingan",
+          "locked": false,
+          "name": "NewSprite52",
+          "persistentUuid": "c27265e1-2fe6-45f0-b9ed-470402d8aee6",
+          "width": 0,
+          "x": 1089,
+          "y": 1491,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalperbandingan",
+          "locked": false,
+          "name": "JAWABANBANDING2",
+          "persistentUuid": "d5626fb1-1d66-4a63-a541-d665ef1e0449",
+          "width": 0,
+          "x": 1872,
+          "y": 1587,
+          "zOrder": 133,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalperbandingan",
+          "locked": false,
+          "name": "JAWABANBANDING22",
+          "persistentUuid": "c32691a0-6db6-432b-873a-bd7bfaba574c",
+          "width": 0,
+          "x": 2019,
+          "y": 1584,
+          "zOrder": 134,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalperkalian",
+          "locked": false,
+          "name": "NewSprite522",
+          "persistentUuid": "f85ebbf5-6cb4-4015-a0cd-ac438840b854",
+          "width": 0,
+          "x": 1098,
+          "y": 299,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalperkalian",
+          "locked": false,
+          "name": "JAWABANKALI",
+          "persistentUuid": "d5d6e4cf-2657-48d1-b341-86c9af272e78",
+          "width": 0,
+          "x": 1871.053955078125,
+          "y": 368.29730224609375,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalperkalian",
+          "locked": false,
+          "name": "JAWABANKALI",
+          "persistentUuid": "0d831d10-a92a-4e6c-95c5-5012cfe6828d",
+          "width": 0,
+          "x": 2022.405517578125,
+          "y": 357.4864807128906,
+          "zOrder": 124,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalpembagian",
+          "locked": false,
+          "name": "NewSprite5222",
+          "persistentUuid": "f429b6cf-f2d9-496a-9ffd-befe5d6bdf49",
+          "width": 0,
+          "x": 1088,
+          "y": 1205,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalpembagian",
+          "locked": false,
+          "name": "JAWABANBAGI",
+          "persistentUuid": "06d5915c-69e3-4a81-8d37-b51e2618c8e8",
+          "width": 0,
+          "x": 1879,
+          "y": 1274,
+          "zOrder": 127,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalpembagian",
+          "locked": false,
+          "name": "JAWABANBAGI",
+          "persistentUuid": "e95e2c69-6c9d-46d8-b8a5-7f3a5fb8ab80",
+          "width": 0,
+          "x": 2065,
+          "y": 1267,
+          "zOrder": 127,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soaltambah",
+          "locked": false,
+          "name": "NewSprite52222",
+          "persistentUuid": "8763b83e-53ad-4531-a922-fcba7f5a9829",
+          "width": 0,
+          "x": 1100,
+          "y": 603,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalkurang",
+          "locked": false,
+          "name": "JAWABANKURANG",
+          "persistentUuid": "2fadf61a-50d7-4787-a56a-03d1688a339c",
+          "width": 0,
+          "x": 1718.45166015625,
+          "y": 958.225830078125,
+          "zOrder": 129,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalkurang",
+          "locked": false,
+          "name": "JAWABANKURANG",
+          "persistentUuid": "5bfddbd8-3eda-4d81-82ed-2dfc53dbcb39",
+          "width": 0,
+          "x": 1902.322509765625,
+          "y": 958.225830078125,
+          "zOrder": 129,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soaltambah",
+          "locked": false,
+          "name": "JAWABANTAMBAH",
+          "persistentUuid": "b9912db2-c54a-4e2c-b76f-0135c66756da",
+          "width": 0,
+          "x": 2041,
+          "y": 673,
+          "zOrder": 131,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soaltambah",
+          "locked": false,
+          "name": "JAWABANTAMBAH",
+          "persistentUuid": "6c0e90f7-9969-47d1-b465-d833c802f377",
+          "width": 0,
+          "x": 1857,
+          "y": 692,
+          "zOrder": 131,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "soalkurang",
+          "locked": false,
+          "name": "NewSprite522222",
+          "persistentUuid": "24f60298-14c6-4f29-bc68-74f8c544162f",
+          "width": 0,
+          "x": 1097,
+          "y": 908,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7389,41 +8349,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 105.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 106.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 107.png",
+                      "image": "Asset 258.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7457,41 +8383,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 109.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
                       "image": "Asset 110.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 111.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7539,6 +8431,74 @@
                         "y": 0
                       },
                       "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 111.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 109.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 107.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 106.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -7563,6 +8523,325 @@
                   "looping": false,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "LV.11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite52",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "LV.11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite522",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 147.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite5222",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 148.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite52222",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 146.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 147.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 148.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 145.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "LV.11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "soallv.1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite522222",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 145.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "soallv.1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Asset 147.png",
@@ -7616,41 +8895,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 145.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
                       "image": "LV.11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "soallv.1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7923,6 +9168,80 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
+                      "image": "lebihkecil.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "lebihbesar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "samadengan.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JAWABANBANDING2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
                       "image": "lebihbesar.png",
                       "points": [],
                       "originPoint": {
@@ -7979,6 +9298,80 @@
           ]
         },
         {
+          "name": "JAWABANBANDING22",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "samadengan.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "lebihkecil.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "lebihbesar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "JAWABANKALI",
           "tags": "",
           "type": "Sprite",
@@ -7997,7 +9390,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 230.png",
+                      "image": "11.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8014,7 +9407,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 231.png",
+                      "image": "122.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8031,7 +9424,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 232.png",
+                      "image": "13.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8048,7 +9441,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 234.png",
+                      "image": "14.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8065,7 +9458,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 235.png",
+                      "image": "15.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8082,7 +9475,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 236.png",
+                      "image": "16.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8099,7 +9492,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 237.png",
+                      "image": "17.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8116,7 +9509,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 238.png",
+                      "image": "18.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8133,7 +9526,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 240.png",
+                      "image": "19.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8150,7 +9543,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 241.png",
+                      "image": "20.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8190,7 +9583,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 242.png",
+                      "image": "12.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8207,7 +9600,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 243.png",
+                      "image": "22.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8224,7 +9617,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 244.png",
+                      "image": "32.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8241,7 +9634,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 245.png",
+                      "image": "4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8258,7 +9651,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 246.png",
+                      "image": "5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8275,7 +9668,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 247.png",
+                      "image": "6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8292,7 +9685,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 248.png",
+                      "image": "7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8309,7 +9702,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 249.png",
+                      "image": "8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8326,7 +9719,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 250.png",
+                      "image": "9.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8343,7 +9736,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 251.png",
+                      "image": "10.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8383,7 +9776,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 209.png",
+                      "image": "112.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8400,7 +9793,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 210.png",
+                      "image": "123.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8417,7 +9810,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 211.png",
+                      "image": "132.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8434,7 +9827,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 212.png",
+                      "image": "142.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8451,7 +9844,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 213.png",
+                      "image": "152.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8468,7 +9861,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 214.png",
+                      "image": "162.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8485,7 +9878,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 215.png",
+                      "image": "172.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8502,7 +9895,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 216.png",
+                      "image": "182.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8519,7 +9912,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 217.png",
+                      "image": "192.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8536,7 +9929,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 229.png",
+                      "image": "202.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8576,7 +9969,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 219.png",
+                      "image": "110.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8593,7 +9986,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 220.png",
+                      "image": "23.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8610,7 +10003,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 221.png",
+                      "image": "33.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8627,7 +10020,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 222.png",
+                      "image": "42.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8644,7 +10037,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 223.png",
+                      "image": "52.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8661,7 +10054,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 224.png",
+                      "image": "62.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8678,7 +10071,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 225.png",
+                      "image": "72.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8695,7 +10088,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 226.png",
+                      "image": "82.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8712,7 +10105,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 227.png",
+                      "image": "92.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8729,7 +10122,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 228.png",
+                      "image": "102.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8769,7 +10162,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 189.png",
+                      "image": "114.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8786,7 +10179,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 190.png",
+                      "image": "25.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8803,7 +10196,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 191.png",
+                      "image": "35.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8820,7 +10213,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 1922.png",
+                      "image": "44.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8837,7 +10230,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 1932.png",
+                      "image": "54.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8854,7 +10247,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 194.png",
+                      "image": "64.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8871,7 +10264,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 195.png",
+                      "image": "74.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8888,41 +10281,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 196.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 197.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 198.png",
+                      "image": "84.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8962,7 +10321,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 199.png",
+                      "image": "115.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8979,7 +10338,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 200.png",
+                      "image": "125.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8996,7 +10355,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 201.png",
+                      "image": "134.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9013,7 +10372,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 2022.png",
+                      "image": "144.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9030,7 +10389,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 2032.png",
+                      "image": "154.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9047,7 +10406,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 204.png",
+                      "image": "164.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9064,7 +10423,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 205.png",
+                      "image": "174.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9081,7 +10440,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 206.png",
+                      "image": "184.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9098,7 +10457,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 207.png",
+                      "image": "194.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9115,7 +10474,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 208.png",
+                      "image": "204.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9155,7 +10514,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 169.png",
+                      "image": "111.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9172,7 +10531,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 170.png",
+                      "image": "24.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9189,7 +10548,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 171.png",
+                      "image": "34.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9206,7 +10565,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 1722.png",
+                      "image": "43.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9223,7 +10582,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 1732.png",
+                      "image": "53.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9240,7 +10599,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 174.png",
+                      "image": "63.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9257,7 +10616,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 175.png",
+                      "image": "73.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9274,7 +10633,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 176.png",
+                      "image": "83.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9291,7 +10650,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 177.png",
+                      "image": "93.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9308,7 +10667,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 178.png",
+                      "image": "103.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9348,7 +10707,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 179.png",
+                      "image": "113.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9365,7 +10724,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 180.png",
+                      "image": "124.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9382,7 +10741,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 181.png",
+                      "image": "133.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9399,7 +10758,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 1822.png",
+                      "image": "143.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9416,7 +10775,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 1832.png",
+                      "image": "153.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9433,7 +10792,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 184.png",
+                      "image": "163.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9450,7 +10809,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 185.png",
+                      "image": "173.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9467,7 +10826,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 186.png",
+                      "image": "183.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9484,7 +10843,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 187.png",
+                      "image": "193.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9501,7 +10860,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 188.png",
+                      "image": "203.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13767,7 +15126,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "TextChatLayer",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -13777,7 +15136,62 @@
           "ambientLightColorR": 9756464,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "name": "soal",
+          "name": "soalmembaca",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7618512,
+          "ambientLightColorG": 6040208,
+          "ambientLightColorR": 12036416,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "soalperbandingan",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 7618512,
+          "ambientLightColorG": 6040208,
+          "ambientLightColorR": 11480016,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "soalperkalian",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 11626504,
+          "ambientLightColorG": 6040208,
+          "ambientLightColorR": 11476248,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "soalpembagian",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 11539392,
+          "ambientLightColorG": 6040208,
+          "ambientLightColorR": 11815120,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "soaltambah",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 12034000,
+          "ambientLightColorG": 6040208,
+          "ambientLightColorR": 11815120,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "soalkurang",
           "visibility": true,
           "cameras": [],
           "effects": []
