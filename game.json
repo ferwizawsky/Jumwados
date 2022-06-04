@@ -3407,7 +3407,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5500000000000006,
+        "zoomFactor": 0.6900000000000004,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17000,8 +17000,8 @@
           "name": "logo",
           "persistentUuid": "7cc3c659-0059-4f17-b14b-623cfb631c04",
           "width": 202.08059692382812,
-          "x": 400,
-          "y": 214,
+          "x": 465.0058898925781,
+          "y": 276.29364013671875,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -17344,8 +17344,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 77,
-                        "y": 80
+                        "x": 133.00588989257812,
+                        "y": 133.2936248779297
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -18735,14 +18735,76 @@
             {
               "type": {
                 "inverted": false,
-                "value": "MouseButtonReleased"
+                "value": "VarScene"
               },
               "parameters": [
-                "",
-                "Left"
+                "menuBag",
+                "!=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "exit"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "menuBag",
+                "=",
+                "0"
               ],
               "subInstructions": []
             },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "setMenu",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "exit",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "inverted": false,
@@ -18753,6 +18815,27 @@
                 "",
                 "",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Visible"
+              },
+              "parameters": [
+                "exit"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
               ],
               "subInstructions": []
             }
@@ -36353,7 +36436,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.76,
+        "zoomFactor": 0.8199999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
