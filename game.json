@@ -4049,7 +4049,7 @@
       "folded": true,
       "name": "hargahero",
       "type": "string",
-      "value": "10000"
+      "value": "5000"
     },
     {
       "folded": true,
@@ -4074,9 +4074,433 @@
       "name": "hero_dipilih",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "is_win",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "player_post",
+      "type": "structure",
+      "children": [
+        {
+          "name": "x",
+          "type": "number",
+          "value": 1832.4537353515625
+        },
+        {
+          "name": "y",
+          "type": "number",
+          "value": 1506.164794921875
+        }
+      ]
     }
   ],
   "layouts": [
+    {
+      "b": 195,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Splash",
+      "name": "Splash",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 155,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 212,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.5199999999999998,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "start",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "after",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "time5r",
+          "persistentUuid": "a6d681dd-27b2-4058-838b-74c4a0a6c148",
+          "width": 0,
+          "x": 727,
+          "y": 16,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 168.38681030273438,
+          "layer": "",
+          "locked": false,
+          "name": "sprite",
+          "persistentUuid": "2e670306-1792-49ca-b079-f39ac369a86c",
+          "width": 170,
+          "x": 394,
+          "y": 161,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "bold": false,
+          "italic": false,
+          "name": "time5r",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "characterSize": 55,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "sprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "splash1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "splash2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetWindowSize"
+              },
+              "parameters": [
+                "",
+                "1280",
+                "720",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "time5r",
+                "=",
+                "VariableString(start)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "sprite",
+                "=",
+                "Variable(start)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "sprite",
+                "<",
+                "255"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "after",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "start",
+                "+",
+                "TimeDelta() * 130"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "sprite",
+                ">=",
+                "254"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "after",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "after",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "start",
+                "-",
+                "TimeDelta() * 130"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "sprite",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "after",
+                "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Opacity"
+              },
+              "parameters": [
+                "sprite",
+                "<=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Main Menu\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 32,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
     {
       "b": 195,
       "disableInputWhenNotFocused": true,
@@ -4100,7 +4524,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5599999999999999,
+        "zoomFactor": 0.8200000000000002,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4110,6 +4534,12 @@
           "name": "select_hero",
           "type": "number",
           "value": 1
+        },
+        {
+          "folded": true,
+          "name": "koin_tmp",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -5360,6 +5790,50 @@
                 }
               ],
               "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GroupExists"
+                  },
+                  "parameters": [
+                    "\"Char\"",
+                    "\"koin\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LireFichierExp"
+                  },
+                  "parameters": [
+                    "\"Char\"",
+                    "\"koin\"",
+                    "",
+                    "koin_tmp"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "koin",
+                    "=",
+                    "Variable(koin_tmp)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         },
@@ -6270,7 +6744,6 @@
               "actions": [],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -6301,6 +6774,30 @@
                             "hero_dipilih",
                             "=",
                             "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "value_health_bar",
+                            "=",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "max_health_bar",
+                            "=",
+                            "5"
                           ],
                           "subInstructions": []
                         }
@@ -6352,6 +6849,30 @@
                             "hero_dipilih",
                             "=",
                             "2"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "value_health_bar",
+                            "=",
+                            "6"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "max_health_bar",
+                            "=",
+                            "6"
                           ],
                           "subInstructions": []
                         }
@@ -6420,6 +6941,18 @@
                             "1"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"Char\"",
+                            "\"koin\"",
+                            "GlobalVariable(koin)"
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -6469,6 +7002,30 @@
                             "hero_dipilih",
                             "=",
                             "3"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "max_health_bar",
+                            "=",
+                            "7"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "value_health_bar",
+                            "=",
+                            "7"
                           ],
                           "subInstructions": []
                         }
@@ -6535,6 +7092,18 @@
                             "\"Char\"",
                             "\"Char3\"",
                             "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "EcrireFichierExp"
+                          },
+                          "parameters": [
+                            "\"Char\"",
+                            "\"koin\"",
+                            "GlobalVariable(koin)"
                           ],
                           "subInstructions": []
                         }
@@ -7063,7 +7632,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [
             {
               "defaultSize": true,
@@ -7085,7 +7654,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "CARAMAIN",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -7115,7 +7684,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6500000000000001,
+        "zoomFactor": 0.5500000000000002,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8065,22 +8634,6 @@
           "x": 471,
           "y": 44,
           "zOrder": 137,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "PAUSE",
-          "persistentUuid": "f21efad6-6834-4127-ae23-e702b79fcc7b",
-          "width": 0,
-          "x": 889,
-          "y": 22,
-          "zOrder": 138,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10685,91 +11238,6 @@
                         "y": 0
                       },
                       "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 147.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 148.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 145.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "LV.11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "soallv.1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -13137,18 +13605,6 @@
                 "1"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "fight_style",
-                "=",
-                "6"
-              ],
-              "subInstructions": []
             }
           ],
           "events": [
@@ -13941,6 +14397,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "GOBLIN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13956,7 +14413,6 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -13975,6 +14431,7 @@
                   "actions": [],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -14127,6 +14584,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -14323,21 +14781,67 @@
                               "subInstructions": []
                             }
                           ],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "inverted": false,
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "value_health_bar",
-                                "+",
-                                "1"
-                              ],
-                              "subInstructions": []
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarGlobal"
+                                      },
+                                      "parameters": [
+                                        "max_health_bar",
+                                        ">",
+                                        "GlobalVariable(value_health_bar)"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarGlobal"
+                                      },
+                                      "parameters": [
+                                        "value_health_bar",
+                                        "+",
+                                        "1"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "Scene"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"map12\"",
+                                        ""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
                             }
-                          ],
-                          "events": []
+                          ]
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -14383,6 +14887,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "PEMBAGIAN",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14755,21 +15260,67 @@
                               "subInstructions": []
                             }
                           ],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "inverted": false,
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "value_health_bar",
-                                "+",
-                                "1"
-                              ],
-                              "subInstructions": []
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarGlobal"
+                                      },
+                                      "parameters": [
+                                        "max_health_bar",
+                                        ">",
+                                        "GlobalVariable(value_health_bar)"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarGlobal"
+                                      },
+                                      "parameters": [
+                                        "value_health_bar",
+                                        "+",
+                                        "1"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "Scene"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"map12\"",
+                                        ""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
                             }
-                          ],
-                          "events": []
+                          ]
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -15187,6 +15738,7 @@
                       "actions": [],
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
@@ -15202,21 +15754,73 @@
                               "subInstructions": []
                             }
                           ],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "inverted": false,
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "value_health_bar",
-                                "+",
-                                "1"
-                              ],
-                              "subInstructions": []
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarGlobal"
+                                      },
+                                      "parameters": [
+                                        "max_health_bar",
+                                        ">",
+                                        "GlobalVariable(value_health_bar)"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarGlobal"
+                                      },
+                                      "parameters": [
+                                        "value_health_bar",
+                                        "+",
+                                        "1"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "Scene"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"map12\"",
+                                        ""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [],
+                              "events": []
                             }
-                          ],
-                          "events": []
+                          ]
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -15262,7 +15866,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "PENGURANGAN",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -15634,21 +16237,67 @@
                               "subInstructions": []
                             }
                           ],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "inverted": false,
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "value_health_bar",
-                                "+",
-                                "1"
-                              ],
-                              "subInstructions": []
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "VarGlobal"
+                                      },
+                                      "parameters": [
+                                        "max_health_bar",
+                                        ">",
+                                        "GlobalVariable(value_health_bar)"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "ModVarGlobal"
+                                      },
+                                      "parameters": [
+                                        "value_health_bar",
+                                        "+",
+                                        "1"
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "inverted": false,
+                                        "value": "Scene"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "\"map12\"",
+                                        ""
+                                      ],
+                                      "subInstructions": []
+                                    }
+                                  ],
+                                  "events": []
+                                }
+                              ]
                             }
-                          ],
-                          "events": []
+                          ]
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -16073,21 +16722,60 @@
                               "subInstructions": []
                             }
                           ],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "inverted": false,
-                                "value": "ModVarGlobal"
-                              },
-                              "parameters": [
-                                "value_health_bar",
-                                "+",
-                                "1"
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "VarGlobal"
+                                  },
+                                  "parameters": [
+                                    "max_health_bar",
+                                    ">",
+                                    "GlobalVariable(value_health_bar)"
+                                  ],
+                                  "subInstructions": []
+                                }
                               ],
-                              "subInstructions": []
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "ModVarGlobal"
+                                  },
+                                  "parameters": [
+                                    "value_health_bar",
+                                    "+",
+                                    "1"
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "inverted": false,
+                                    "value": "Scene"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"map12\"",
+                                    ""
+                                  ],
+                                  "subInstructions": []
+                                }
+                              ],
+                              "events": []
                             }
-                          ],
-                          "events": []
+                          ]
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -19762,7 +20450,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "soalpembagian",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -19808,408 +20496,6 @@
           "name": "kalah",
           "visibility": false,
           "cameras": [],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": []
-    },
-    {
-      "b": 195,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Splash",
-      "name": "Splash",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 155,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 212,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.4199999999999997,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [
-        {
-          "name": "start",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "after",
-          "type": "boolean",
-          "value": false
-        }
-      ],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "time5r",
-          "persistentUuid": "a6d681dd-27b2-4058-838b-74c4a0a6c148",
-          "width": 0,
-          "x": 727,
-          "y": 16,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 168.38681030273438,
-          "layer": "",
-          "locked": false,
-          "name": "sprite",
-          "persistentUuid": "2e670306-1792-49ca-b079-f39ac369a86c",
-          "width": 170,
-          "x": 394,
-          "y": 161,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "bold": false,
-          "italic": false,
-          "name": "time5r",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "",
-          "characterSize": 55,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "name": "sprite",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1.5,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "splash1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "splash2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetWindowSize"
-              },
-              "parameters": [
-                "",
-                "1280",
-                "720",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "time5r",
-                "=",
-                "VariableString(start)"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "sprite",
-                "=",
-                "Variable(start)"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "sprite",
-                "<",
-                "255"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "after",
-                "False"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "start",
-                "+",
-                "TimeDelta() * 130"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "sprite",
-                ">=",
-                "254"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "after",
-                "True"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "after",
-                "True"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "start",
-                "-",
-                "TimeDelta() * 130"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "sprite",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "after",
-                "True"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Opacity"
-              },
-              "parameters": [
-                "sprite",
-                "<=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Main Menu\"",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 32,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
           "effects": []
         }
       ],
@@ -21772,6 +22058,16 @@
                 "\"GUI2\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseAnimation"
+              },
+              "parameters": [
+                "panduan_view"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -22944,7 +23240,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.30999999999999994,
+        "zoomFactor": 0.35000000000000075,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23022,8 +23318,8 @@
           "name": "player",
           "persistentUuid": "c023472e-46d0-4acd-95c1-b10faa7ebb1c",
           "width": 80,
-          "x": 3077.79296875,
-          "y": -293.6452941894531,
+          "x": 2641.453857421875,
+          "y": -1063.835205078125,
           "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
@@ -23256,8 +23552,8 @@
           "name": "maps_title",
           "persistentUuid": "b1930203-7e2b-4dcd-a4e3-a649134f47ff",
           "width": 0,
-          "x": 309,
-          "y": 22,
+          "x": 461,
+          "y": -107,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -23272,25 +23568,9 @@
           "name": "gui_bt",
           "persistentUuid": "bccf56d7-03c0-4cd3-bda8-8a66672be500",
           "width": 110,
-          "x": 833.611083984375,
-          "y": 432.3055419921875,
+          "x": 864.611083984375,
+          "y": 237.30555725097656,
           "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 262,
-          "layer": "",
-          "locked": false,
-          "name": "to_event",
-          "persistentUuid": "f8d8459d-54ac-433d-b705-106cb928b9c5",
-          "width": 292,
-          "x": 938.5625,
-          "y": 1101.953125,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23323,38 +23603,6 @@
           "x": -400,
           "y": -5070,
           "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "textPertanyaan",
-          "persistentUuid": "f2607a34-1edc-4ee8-a7be-96e11741a715",
-          "width": 0,
-          "x": 1069,
-          "y": 928,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "house",
-          "persistentUuid": "b842c83d-5153-45de-805b-2057fa18c334",
-          "width": 0,
-          "x": 1113,
-          "y": 1111.5,
-          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25194,8 +25442,8 @@
           "name": "monster_slime",
           "persistentUuid": "65b2026e-be23-447a-b85d-1405e2787c69",
           "width": 0,
-          "x": 420.280517578125,
-          "y": 1035.8350830078125,
+          "x": 1120.280517578125,
+          "y": 1495.8350830078125,
           "zOrder": 88,
           "numberProperties": [],
           "stringProperties": [],
@@ -25274,8 +25522,8 @@
           "name": "monster_slime",
           "persistentUuid": "62cbde0e-0ccc-4822-a4ca-25471f56a27f",
           "width": 0,
-          "x": 367.05377197265625,
-          "y": 895.829833984375,
+          "x": 1168.280517578125,
+          "y": -302.1649475097656,
           "zOrder": 89,
           "numberProperties": [],
           "stringProperties": [],
@@ -25716,8 +25964,8 @@
           "name": "textLog",
           "persistentUuid": "e3bad32d-53a7-4ba3-9a70-23dfb8dea461",
           "width": 0,
-          "x": 839,
-          "y": 56,
+          "x": 866,
+          "y": 93,
           "zOrder": 115,
           "numberProperties": [],
           "stringProperties": [],
@@ -25743,7 +25991,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "kalah",
+          "layer": "menang",
           "locked": false,
           "name": "NewSprite3",
           "persistentUuid": "9d58fdae-82d2-4fea-8ec7-6703ad491156",
@@ -25759,9 +26007,9 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "kalah",
+          "layer": "menang",
           "locked": false,
-          "name": "NewSprite4",
+          "name": "backmainmenu",
           "persistentUuid": "630320e4-209b-4d4a-9312-32c2d4ac26ef",
           "width": 0,
           "x": 386,
@@ -27843,7 +28091,7 @@
           ]
         },
         {
-          "name": "NewSprite4",
+          "name": "backmainmenu",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -27884,6 +28132,426 @@
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "maps_title",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "bge"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "5040126673027072.wav",
+                "yes",
+                "100",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "player",
+                "=",
+                "GlobalVariable(player_post.x)",
+                "=",
+                "GlobalVariable(player_post.y)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Plan"
+                  },
+                  "parameters": [
+                    "to_event",
+                    "=",
+                    "GlobalVariable(tele_home_pos)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "player",
+                    "=",
+                    "to_event.X()",
+                    "=",
+                    "to_event.Y()+50"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "hero_dipilih",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "player",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "hero_dipilih",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "player",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "hero_dipilih",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "player",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n //f1 = 0\n //f2 = 0\n //f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 && f2 == 0 && f3 == 0){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "IF WIN",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "is_win",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"menang\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "EcrireFichierExp"
+                      },
+                      "parameters": [
+                        "\"Char\"",
+                        "\"koin\"",
+                        "GlobalVariable(koin) + 5000"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "is_win",
+                        "False"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"menang\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "is_win",
+                "True"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "backmainmenu",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Main Menu\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "DEBUGGING",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "obstacel",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "nearEvent",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 && f2 == 0 && f3 == 0){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -28057,150 +28725,48 @@
                 "3"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "coin_text",
+                "=",
+                "GlobalVariableString(koin)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "player_post.x",
+                "=",
+                "player.X()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "player_post.y",
+                "=",
+                "player.Y()"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "DEBUGGING",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "obstacel",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "nearEvent",
-                    "=",
-                    "255"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n\n \n",
-          "parameterObjects": "",
-          "useStrict": true,
-          "eventsSheetExpanded": false
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::Opacity"
-              },
-              "parameters": [
-                "maps_title",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "bge"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "5040126673027072.wav",
-                "yes",
-                "100",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Plan"
-                  },
-                  "parameters": [
-                    "to_event",
-                    "=",
-                    "GlobalVariable(tele_home_pos)"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "player",
-                    "=",
-                    "to_event.X()",
-                    "=",
-                    "to_event.Y()+50"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            }
-          ]
-        },
-        {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -28658,6 +29224,30 @@
                             "\"EA FIGHT\" + GlobalVariableString(monster_slime[0])"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "fight_style",
+                            "=",
+                            "2"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Scene"
+                          },
+                          "parameters": [
+                            "",
+                            "\"map122\"",
+                            "yes"
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -28745,6 +29335,30 @@
                             "\"EA FIGHT\" + GlobalVariableString(monster_slime[0])"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "fight_style",
+                            "=",
+                            "3 + Random(1)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Scene"
+                          },
+                          "parameters": [
+                            "",
+                            "\"map122\"",
+                            "yes"
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -28830,6 +29444,30 @@
                             "textLog",
                             "=",
                             "\"EA FIGHT\" + GlobalVariableString(monster_slime[0])"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "fight_style",
+                            "=",
+                            "5 + Random(1)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Scene"
+                          },
+                          "parameters": [
+                            "",
+                            "\"map122\"",
+                            "yes"
                           ],
                           "subInstructions": []
                         }
@@ -32511,7 +33149,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "GUI",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -32533,7 +33171,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "TextChatLayer",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -32543,7 +33181,7 @@
           "ambientLightColorR": 13267856,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "name": "kalah",
+          "name": "menang",
           "visibility": false,
           "cameras": [],
           "effects": []
@@ -39868,85 +40506,73 @@
               "subInstructions": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "NewSprite4",
-                "+",
-                "-1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "NewSprite4",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Sprite"
-              },
-              "parameters": [
-                "NewSprite4",
-                "=",
-                "0"
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Main Menu\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "NewSprite4",
+                    "!=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "NewSprite2",
-                "",
-                "",
-                ""
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "NewSprite4",
+                    "+",
+                    "-1"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
+              "events": []
             }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Main Menu\"",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
