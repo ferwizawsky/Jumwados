@@ -7548,6 +7548,16 @@
                 "1506.164794921875"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "GlobalVariableClearChildren"
+              },
+              "parameters": [
+                "monster_slime"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
