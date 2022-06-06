@@ -22,7 +22,7 @@
     "author": "",
     "windowWidth": 960,
     "windowHeight": 540,
-    "latestCompilationDirectory": "C:\\xampp\\htdocs\\expaaaa",
+    "latestCompilationDirectory": "C:\\xampp\\htdocs\\expq",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -4241,7 +4241,7 @@
       "folded": true,
       "name": "koin",
       "type": "number",
-      "value": 999999
+      "value": 0
     },
     {
       "folded": true,
@@ -4722,7 +4722,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8800000000000002,
+        "zoomFactor": 0.62,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7552,6 +7552,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "value_health_bar",
+                "=",
+                "GlobalVariable(max_health_bar)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "GlobalVariableClearChildren"
               },
               "parameters": [
@@ -8037,7 +8049,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "CARAMAIN",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
