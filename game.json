@@ -22,7 +22,7 @@
     "author": "",
     "windowWidth": 960,
     "windowHeight": 540,
-    "latestCompilationDirectory": "C:\\xampp\\htdocs\\exp",
+    "latestCompilationDirectory": "C:\\xampp\\htdocs\\expaaaa",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -4181,6 +4181,15 @@
         "metadata": "",
         "name": "Asset 1063.png",
         "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
         "userAdded": true
       }
     ],
@@ -14182,7 +14191,7 @@
                 "",
                 "5040126673027072.wav",
                 "yes",
-                "100",
+                "60",
                 "1"
               ],
               "subInstructions": []
@@ -20664,7 +20673,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7700000000000004,
+        "zoomFactor": 0.6900000000000003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23346,6 +23355,38 @@
               "events": []
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "music.mp3",
+                "yes",
+                "100",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
@@ -29668,7 +29709,7 @@
               },
               "parameters": [
                 "",
-                "5040126673027072.wav",
+                "music.mp3",
                 "yes",
                 "100",
                 "1"
