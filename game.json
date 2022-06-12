@@ -16,17 +16,45 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
+    "version": "1.2.1.1",
     "name": "Math Knight",
     "description": "",
     "author": "Math Knight",
     "windowWidth": 960,
     "windowHeight": 540,
-    "latestCompilationDirectory": "C:\\xampp\\htdocs\\abcdefgh",
+    "latestCompilationDirectory": "C:\\xampp\\htdocs\\abcdefghi",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "Asset 1482.png",
+      "android-icon-192": "Asset 1472.png",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -4400,6 +4428,438 @@
         "name": "Asset 1213.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 363.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 363.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1223.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1223.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1242.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1242.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1252.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1252.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1224.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1224.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1342.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1342.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1332.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1332.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1322.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1322.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 131.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 131.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 130.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 130.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 129.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 129.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 128.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 128.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 127.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 127.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 126.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 126.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1462.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1462.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1452.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1452.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 144.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 144.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 143.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 143.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 141.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 141.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 140.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 140.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 139.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 139.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 138.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 138.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 137.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 137.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 136.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 136.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 135.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 135.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1343.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1343.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1333.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1333.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1323.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1323.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1312.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1312.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1302.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1302.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1292.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1292.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1282.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1282.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1272.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1272.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1262.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1262.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1463.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1463.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1453.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1453.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1442.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1442.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1432.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1432.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1422.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1422.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1412.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1412.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1402.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1402.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1392.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1392.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1382.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1382.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1372.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1372.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1362.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1362.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1352.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1352.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1472.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1472.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1482.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1482.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4949,7 +5409,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6400000000000001,
+        "zoomFactor": 0.6200000000000001,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5259,14 +5719,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 390.270263671875,
+          "height": 354.83782958984375,
           "layer": "CARAMAIN",
           "locked": false,
           "name": "caramain",
           "persistentUuid": "4ec06b25-ee69-43c1-87fc-5ed67cf211f4",
-          "width": 760,
-          "x": 100,
-          "y": 145,
+          "width": 691,
+          "x": 137,
+          "y": 136,
           "zOrder": 127,
           "numberProperties": [],
           "stringProperties": [],
@@ -5908,7 +6368,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "panduan3.png",
+                      "image": "Asset 363.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5948,7 +6408,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 154.png",
+                      "image": "Asset 1462.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5965,7 +6425,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 14.png",
+                      "image": "Asset 1452.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5982,7 +6442,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 125.png",
+                      "image": "Asset 144.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5999,7 +6459,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 1010.png",
+                      "image": "Asset 143.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6016,7 +6476,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 1110.png",
+                      "image": "Asset 142.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6033,7 +6493,109 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 165.png",
+                      "image": "Asset 141.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 140.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 139.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 138.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 137.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 136.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 135.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8223,7 +8785,7 @@
                   "parameters": [
                     "caramain",
                     "=",
-                    "5"
+                    "11"
                   ],
                   "subInstructions": []
                 }
@@ -8255,7 +8817,7 @@
                   "parameters": [
                     "caramain",
                     "!=",
-                    "5"
+                    "11"
                   ],
                   "subInstructions": []
                 }
@@ -8315,7 +8877,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "CARAMAIN",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -9254,14 +9816,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 73.15811920166016,
+          "height": 124.10223388671875,
           "layer": "",
           "locked": false,
           "name": "monster_slime",
           "persistentUuid": "6fd19a85-0af3-44d5-a5fb-65597d48a5bf",
-          "width": 80.59793090820312,
-          "x": 507.7037658691406,
-          "y": 114.14754486083984,
+          "width": 136.72280883789062,
+          "x": 449.3660583496094,
+          "y": 158.02255249023438,
           "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
@@ -9269,15 +9831,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 183.20648193359375,
           "layer": "",
           "locked": false,
           "name": "monster_goblin",
           "persistentUuid": "a2097cab-e74b-4e71-83b6-aa55db81f1dd",
-          "width": 0,
-          "x": 540,
-          "y": 71,
+          "width": 147.58299255371094,
+          "x": 390,
+          "y": 111,
           "zOrder": 136,
           "numberProperties": [],
           "stringProperties": [],
@@ -9285,15 +9847,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 117.048583984375,
           "layer": "",
           "locked": false,
           "name": "monster_bat",
           "persistentUuid": "ce337228-507f-406b-b15e-095cc429cea8",
-          "width": 0,
-          "x": 471,
-          "y": 44,
+          "width": 257.8461608886719,
+          "x": 324,
+          "y": 102,
           "zOrder": 137,
           "numberProperties": [],
           "stringProperties": [],
@@ -21067,7 +21629,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5300000000000002,
+        "zoomFactor": 0.6900000000000004,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21212,8 +21774,8 @@
           "name": "panduan_view",
           "persistentUuid": "476a8e06-4cb6-4def-aa86-6d110c846052",
           "width": 0,
-          "x": 143,
-          "y": 134,
+          "x": 156,
+          "y": 130,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -21420,7 +21982,7 @@
           "name": "NewSprite3",
           "persistentUuid": "b30892c9-0acc-436c-acab-160d3df807cc",
           "width": 0,
-          "x": -3,
+          "x": 0,
           "y": -3,
           "zOrder": 1,
           "numberProperties": [],
@@ -21700,11 +22262,11 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 10,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 60.png",
+                      "image": "Asset 126.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21721,7 +22283,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 61.png",
+                      "image": "Asset 127.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21738,7 +22300,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 62.png",
+                      "image": "Asset 128.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21755,7 +22317,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 68.png",
+                      "image": "Asset 129.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21772,7 +22334,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 70.png",
+                      "image": "Asset 130.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21789,7 +22351,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 63.png",
+                      "image": "Asset 131.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21806,7 +22368,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 69.png",
+                      "image": "Asset 1322.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21823,7 +22385,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 71.png",
+                      "image": "Asset 1332.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21840,58 +22402,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 64.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 67.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 65.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Asset 66.png",
+                      "image": "Asset 1342.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -22567,7 +23078,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 1113.png",
+                      "image": "panduan4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23141,7 +23652,7 @@
                       "parameters": [
                         "panduan_view",
                         "=",
-                        "11"
+                        "8"
                       ],
                       "subInstructions": []
                     }
@@ -23173,7 +23684,7 @@
                       "parameters": [
                         "panduan_view",
                         "!=",
-                        "11"
+                        "8"
                       ],
                       "subInstructions": []
                     }
@@ -23890,7 +24401,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.17,
+        "zoomFactor": 0.6100000000000001,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25263,22 +25774,6 @@
           "x": -346,
           "y": -41.984375,
           "zOrder": 2002,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "npc1",
-          "persistentUuid": "64692d9f-bfba-4c79-8c64-ba3e8affd19e",
-          "width": 0,
-          "x": 1424.9710693359375,
-          "y": 1667.6754150390625,
-          "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28335,7 +28830,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f3);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f3 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 2;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f3);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f3 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
@@ -28574,7 +29069,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f3);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f3 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 2;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f3);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f3 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -33295,7 +33790,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "menang",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -33347,7 +33842,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.29,
+        "zoomFactor": 0.43000000000000005,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -34413,8 +34908,8 @@
           "name": "NewSprite3",
           "persistentUuid": "9d58fdae-82d2-4fea-8ec7-6703ad491156",
           "width": 0,
-          "x": 26,
-          "y": 133,
+          "x": 73,
+          "y": 177,
           "zOrder": 2000,
           "numberProperties": [],
           "stringProperties": [],
@@ -34544,22 +35039,6 @@
           "x": 1838.125244140625,
           "y": 136.00003051757812,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "npc1",
-          "persistentUuid": "64692d9f-bfba-4c79-8c64-ba3e8affd19e",
-          "width": 0,
-          "x": 525.9710693359375,
-          "y": 1490.675537109375,
-          "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36646,7 +37125,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 712.png",
+                      "image": "Asset 1252.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -36686,7 +37165,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 693.png",
+                      "image": "Asset 1224.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -37660,7 +38139,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f2 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+              "inlineCode": "var f1 = 10;\nvar f2 = 2;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f2 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
@@ -37748,6 +38227,16 @@
                       "parameters": [
                         "",
                         "\"menang\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "perahu"
                       ],
                       "subInstructions": []
                     }
@@ -37899,7 +38388,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f2 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+          "inlineCode": "var f1 = 10;\nvar f2 = 2;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f2 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -42609,7 +43098,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "menang",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -42661,7 +43150,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.22999999999999998,
+        "zoomFactor": 0.17000000000000018,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -44319,8 +44808,8 @@
           "name": "NewSprite3",
           "persistentUuid": "9d58fdae-82d2-4fea-8ec7-6703ad491156",
           "width": 0,
-          "x": 26,
-          "y": 133,
+          "x": 66,
+          "y": 173,
           "zOrder": 2000,
           "numberProperties": [],
           "stringProperties": [],
@@ -44335,8 +44824,8 @@
           "name": "backmainmenu",
           "persistentUuid": "630320e4-209b-4d4a-9312-32c2d4ac26ef",
           "width": 0,
-          "x": 386,
-          "y": 434,
+          "x": 393,
+          "y": 435,
           "zOrder": 2001,
           "numberProperties": [],
           "stringProperties": [],
@@ -46744,7 +47233,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 712.png",
+                      "image": "Asset 1242.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -46784,7 +47273,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 693.png",
+                      "image": "Asset 1223.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47770,7 +48259,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+              "inlineCode": "var f1 = 2;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
@@ -48019,7 +48508,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+          "inlineCode": "var f1 = 2;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -49659,6 +50148,17 @@
                   "parameters": [
                     "NewSprite17",
                     "\"senbunyi\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"layermusuh\""
                   ],
                   "subInstructions": []
                 }
@@ -51418,7 +51918,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -51458,7 +51957,7 @@
                   "parameters": [
                     "textPertanyaan",
                     "=",
-                    "\"Salah Tolol\""
+                    "\"Salah\""
                   ],
                   "subInstructions": []
                 }
@@ -51500,7 +51999,7 @@
                   "parameters": [
                     "textPertanyaan",
                     "=",
-                    "\"Benar Tolol\""
+                    "\"Benar\""
                   ],
                   "subInstructions": []
                 }
@@ -60457,8 +60956,8 @@
           "name": "MATERI",
           "persistentUuid": "880ca1de-534e-4145-8911-c50e2495ab19",
           "width": 0,
-          "x": 140,
-          "y": 141,
+          "x": 145,
+          "y": 129,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -60605,7 +61104,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 1910.png",
+                      "image": "Asset 1463.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60622,7 +61121,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 2010.png",
+                      "image": "Asset 1453.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60639,7 +61138,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 218.png",
+                      "image": "Asset 1442.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60656,7 +61155,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 2210.png",
+                      "image": "Asset 1432.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60673,7 +61172,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 233.png",
+                      "image": "Asset 1422.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60690,7 +61189,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 2410.png",
+                      "image": "Asset 1412.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60707,7 +61206,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 2510.png",
+                      "image": "Asset 1402.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60724,7 +61223,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 262.png",
+                      "image": "Asset 1392.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60741,7 +61240,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 272.png",
+                      "image": "Asset 1382.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60758,7 +61257,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 282.png",
+                      "image": "Asset 1372.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60775,7 +61274,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 292.png",
+                      "image": "Asset 1362.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -60792,7 +61291,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 302.png",
+                      "image": "Asset 1352.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -61148,8 +61647,8 @@
           "name": "panduan",
           "persistentUuid": "da9d763f-93b4-419b-9653-5a50c700f821",
           "width": 0,
-          "x": 37,
-          "y": 128,
+          "x": 159,
+          "y": 123,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -61296,7 +61795,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 803.png",
+                      "image": "Asset 1262.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -61313,7 +61812,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 813.png",
+                      "image": "Asset 1272.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -61330,7 +61829,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 823.png",
+                      "image": "Asset 1282.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -61347,7 +61846,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 833.png",
+                      "image": "Asset 1292.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -61364,7 +61863,75 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 843.png",
+                      "image": "Asset 1302.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1312.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1323.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1333.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1343.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -61582,7 +62149,7 @@
               "parameters": [
                 "panduan",
                 "=",
-                "4"
+                "8"
               ],
               "subInstructions": []
             }
