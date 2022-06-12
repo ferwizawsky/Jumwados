@@ -4256,6 +4256,33 @@
         "name": "Asset 1103.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1153.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1153.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1142.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1142.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1132.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1132.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4787,7 +4814,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5599999999999999,
+        "zoomFactor": 0.7600000000000002,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5803,6 +5830,23 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
+                      "image": "Asset 1153.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
                       "image": "Asset 812.png",
                       "points": [],
                       "originPoint": {
@@ -5837,7 +5881,24 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Asset 832.png",
+                      "image": "Asset 1142.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1132.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8114,7 +8175,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [
             {
               "defaultSize": true,
@@ -8136,7 +8197,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "CARAMAIN",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -20822,7 +20883,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0500000000000005,
+        "zoomFactor": 0.5300000000000002,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -21047,8 +21108,8 @@
           "name": "keratos",
           "persistentUuid": "ca18d466-1856-4850-a41e-5e9314c6ccab",
           "width": 0,
-          "x": 568,
-          "y": -212,
+          "x": 584,
+          "y": -217,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -21063,8 +21124,8 @@
           "name": "kakarotos2",
           "persistentUuid": "edf54209-4588-41bd-8b80-4e78623e3267",
           "width": 0,
-          "x": 823,
-          "y": -211,
+          "x": 699,
+          "y": -190,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -23571,7 +23632,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Panduan",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -23604,7 +23665,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "GUI2",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -23645,7 +23706,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.45000000000000007,
+        "zoomFactor": 0.45,
         "windowMask": false
       },
       "objectsGroups": [],
