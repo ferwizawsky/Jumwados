@@ -22,7 +22,7 @@
     "author": "Math Knight",
     "windowWidth": 960,
     "windowHeight": 540,
-    "latestCompilationDirectory": "C:\\xampp\\htdocs\\abcde",
+    "latestCompilationDirectory": "C:\\xampp\\htdocs\\abcdefgh",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -4337,6 +4337,69 @@
         "name": "Asset 1010.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1162.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1162.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1172.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1172.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1182.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1182.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1192.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1192.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1202.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1202.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1212.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1212.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1213.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1213.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4440,6 +4503,24 @@
           "value": 1506.164794921875
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "pilih_stage",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "winner",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "progres_level",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
@@ -4868,7 +4949,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7600000000000002,
+        "zoomFactor": 0.6400000000000001,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8142,7 +8223,7 @@
                   "parameters": [
                     "caramain",
                     "=",
-                    "4"
+                    "5"
                   ],
                   "subInstructions": []
                 }
@@ -8174,7 +8255,7 @@
                   "parameters": [
                     "caramain",
                     "!=",
-                    "4"
+                    "5"
                   ],
                   "subInstructions": []
                 }
@@ -13998,6 +14079,35 @@
             {
               "type": {
                 "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "winner",
+                "False"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "VarGlobal"
               },
               "parameters": [
@@ -14072,6 +14182,146 @@
             }
           ],
           "events": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "JIKA MENANG",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "winner",
+                    "True"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "koin",
+                    "+",
+                    "100"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "pilih_stage",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"map12\"",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "pilih_stage",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"map123\"",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "pilih_stage",
+                        "=",
+                        "3"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"map1232\"",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -15216,7 +15466,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "GOBLIN",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -15226,7 +15475,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PERKALIAN",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -15623,20 +15871,7 @@
                                           "subInstructions": []
                                         }
                                       ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "inverted": false,
-                                            "value": "ModVarGlobal"
-                                          },
-                                          "parameters": [
-                                            "value_health_bar",
-                                            "+",
-                                            "1"
-                                          ],
-                                          "subInstructions": []
-                                        }
-                                      ],
+                                      "actions": [],
                                       "events": []
                                     },
                                     {
@@ -15646,12 +15881,11 @@
                                         {
                                           "type": {
                                             "inverted": false,
-                                            "value": "Scene"
+                                            "value": "SetGlobalVariableAsBoolean"
                                           },
                                           "parameters": [
-                                            "",
-                                            "\"map12\"",
-                                            ""
+                                            "winner",
+                                            "True"
                                           ],
                                           "subInstructions": []
                                         }
@@ -15706,7 +15940,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PEMBAGIAN",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -16102,20 +16335,7 @@
                                           "subInstructions": []
                                         }
                                       ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "inverted": false,
-                                            "value": "ModVarGlobal"
-                                          },
-                                          "parameters": [
-                                            "value_health_bar",
-                                            "+",
-                                            "1"
-                                          ],
-                                          "subInstructions": []
-                                        }
-                                      ],
+                                      "actions": [],
                                       "events": []
                                     },
                                     {
@@ -16125,12 +16345,11 @@
                                         {
                                           "type": {
                                             "inverted": false,
-                                            "value": "Scene"
+                                            "value": "SetGlobalVariableAsBoolean"
                                           },
                                           "parameters": [
-                                            "",
-                                            "\"map12\"",
-                                            ""
+                                            "winner",
+                                            "True"
                                           ],
                                           "subInstructions": []
                                         }
@@ -16188,7 +16407,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "BAT",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -16198,7 +16416,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PERTAMBAHAN",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -16557,7 +16774,6 @@
                           "actions": [],
                           "events": [
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -16573,20 +16789,7 @@
                                   "subInstructions": []
                                 }
                               ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "inverted": false,
-                                    "value": "ModVarGlobal"
-                                  },
-                                  "parameters": [
-                                    "value_health_bar",
-                                    "+",
-                                    "1"
-                                  ],
-                                  "subInstructions": []
-                                }
-                              ],
+                              "actions": [],
                               "events": [
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -16609,20 +16812,7 @@
                                           "subInstructions": []
                                         }
                                       ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "inverted": false,
-                                            "value": "ModVarGlobal"
-                                          },
-                                          "parameters": [
-                                            "value_health_bar",
-                                            "+",
-                                            "1"
-                                          ],
-                                          "subInstructions": []
-                                        }
-                                      ],
+                                      "actions": [],
                                       "events": []
                                     },
                                     {
@@ -16632,12 +16822,11 @@
                                         {
                                           "type": {
                                             "inverted": false,
-                                            "value": "Scene"
+                                            "value": "SetGlobalVariableAsBoolean"
                                           },
                                           "parameters": [
-                                            "",
-                                            "\"map12\"",
-                                            ""
+                                            "winner",
+                                            "True"
                                           ],
                                           "subInstructions": []
                                         }
@@ -16698,7 +16887,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "PENGURANGAN",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -17093,20 +17281,7 @@
                                           "subInstructions": []
                                         }
                                       ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "inverted": false,
-                                            "value": "ModVarGlobal"
-                                          },
-                                          "parameters": [
-                                            "koin",
-                                            "+",
-                                            "100"
-                                          ],
-                                          "subInstructions": []
-                                        }
-                                      ],
+                                      "actions": [],
                                       "events": []
                                     },
                                     {
@@ -17116,12 +17291,11 @@
                                         {
                                           "type": {
                                             "inverted": false,
-                                            "value": "Scene"
+                                            "value": "SetGlobalVariableAsBoolean"
                                           },
                                           "parameters": [
-                                            "",
-                                            "\"map12\"",
-                                            ""
+                                            "winner",
+                                            "True"
                                           ],
                                           "subInstructions": []
                                         }
@@ -17571,20 +17745,7 @@
                                       "subInstructions": []
                                     }
                                   ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "inverted": false,
-                                        "value": "ModVarGlobal"
-                                      },
-                                      "parameters": [
-                                        "value_health_bar",
-                                        "+",
-                                        "0.5"
-                                      ],
-                                      "subInstructions": []
-                                    }
-                                  ],
+                                  "actions": [],
                                   "events": []
                                 },
                                 {
@@ -17594,12 +17755,11 @@
                                     {
                                       "type": {
                                         "inverted": false,
-                                        "value": "Scene"
+                                        "value": "SetGlobalVariableAsBoolean"
                                       },
                                       "parameters": [
-                                        "",
-                                        "\"map12\"",
-                                        ""
+                                        "winner",
+                                        "True"
                                       ],
                                       "subInstructions": []
                                     }
@@ -17903,20 +18063,7 @@
                                   "subInstructions": []
                                 }
                               ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "inverted": false,
-                                    "value": "ModVarGlobal"
-                                  },
-                                  "parameters": [
-                                    "value_health_bar",
-                                    "+",
-                                    "1"
-                                  ],
-                                  "subInstructions": []
-                                }
-                              ],
+                              "actions": [],
                               "events": []
                             },
                             {
@@ -23743,7 +23890,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.2300000000000004,
+        "zoomFactor": 0.17,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -24082,8 +24229,8 @@
           "name": "block",
           "persistentUuid": "3bfca1be-13ce-4bed-8407-e862b0cdcafb",
           "width": 73,
-          "x": 1006,
-          "y": 352,
+          "x": 1465,
+          "y": 1446,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24098,8 +24245,8 @@
           "name": "block",
           "persistentUuid": "f267d3e1-bfe6-496a-9af1-4d4fbe969f63",
           "width": 69,
-          "x": 1449.5,
-          "y": 694.5,
+          "x": 1908.5,
+          "y": 1788.5,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24114,8 +24261,8 @@
           "name": "block",
           "persistentUuid": "d01545f7-f90e-41a3-8cd2-0c50a5bbe527",
           "width": 994,
-          "x": -550,
-          "y": 234,
+          "x": -91,
+          "y": 1328,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24130,8 +24277,8 @@
           "name": "block",
           "persistentUuid": "98c81d3a-e5af-492c-a3b4-bc750301f342",
           "width": 18,
-          "x": 285,
-          "y": 389,
+          "x": 744,
+          "y": 1483,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24146,8 +24293,8 @@
           "name": "block",
           "persistentUuid": "73a773df-151c-4c9a-aeb7-a84533a90bf7",
           "width": 18,
-          "x": 389.5,
-          "y": -703.5,
+          "x": 848.5,
+          "y": 390.5,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24162,8 +24309,8 @@
           "name": "block",
           "persistentUuid": "6269efd0-a2c1-473e-b648-4f44373b314b",
           "width": 18,
-          "x": 1552,
-          "y": 219,
+          "x": 2011,
+          "y": 1313,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24178,8 +24325,8 @@
           "name": "block",
           "persistentUuid": "b9f3c38a-f0d3-40d9-99a0-082b227cff34",
           "width": 64,
-          "x": 1081,
-          "y": -68,
+          "x": 1540,
+          "y": 1026,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24194,8 +24341,8 @@
           "name": "block",
           "persistentUuid": "075bf7ad-4906-4000-ad8e-58771f71f62f",
           "width": 64,
-          "x": 1749,
-          "y": -73,
+          "x": 2208,
+          "y": 1021,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24210,8 +24357,8 @@
           "name": "block",
           "persistentUuid": "54392049-8260-4bfc-b432-446704f8165d",
           "width": 18,
-          "x": 2026,
-          "y": -736,
+          "x": 2485,
+          "y": 358,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24226,8 +24373,8 @@
           "name": "block",
           "persistentUuid": "edb8bd57-eb53-4032-9d66-401b47232aa9",
           "width": 18,
-          "x": 850,
-          "y": -581,
+          "x": 1309,
+          "y": 513,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24242,8 +24389,8 @@
           "name": "block",
           "persistentUuid": "6d24647c-5c53-4dda-b4e8-0b214ca7750c",
           "width": 64,
-          "x": -99.5,
-          "y": -1485.5,
+          "x": 359.5,
+          "y": -391.5,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24258,8 +24405,8 @@
           "name": "block",
           "persistentUuid": "052369e6-42be-469b-b29f-7645446f8586",
           "width": 64,
-          "x": -58,
-          "y": -1221,
+          "x": 401,
+          "y": -127,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24274,8 +24421,8 @@
           "name": "block",
           "persistentUuid": "306d7fe5-1aba-4851-9200-f782eeb69d97",
           "width": 18,
-          "x": -1001,
-          "y": -1478,
+          "x": -542,
+          "y": -384,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24290,8 +24437,8 @@
           "name": "block",
           "persistentUuid": "dfc8e253-e9ef-491a-a885-74b5d5394e9d",
           "width": 64,
-          "x": -448,
-          "y": -1034,
+          "x": 11,
+          "y": 60,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24306,8 +24453,8 @@
           "name": "block",
           "persistentUuid": "3a28a870-207e-4346-8a1c-48df75fe1166",
           "width": 18,
-          "x": 1336,
-          "y": -1535,
+          "x": 1795,
+          "y": -441,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24322,8 +24469,8 @@
           "name": "block",
           "persistentUuid": "3ad72177-739a-4f71-95c3-fd4319a8facf",
           "width": 64,
-          "x": 1657.5,
-          "y": -1112.5,
+          "x": 2116.5,
+          "y": -18.5,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24338,8 +24485,8 @@
           "name": "block",
           "persistentUuid": "5f9c376a-d123-4ad9-959e-56a5b80f456d",
           "width": 18,
-          "x": 1037,
-          "y": -1874,
+          "x": 1496,
+          "y": -780,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24354,8 +24501,8 @@
           "name": "block",
           "persistentUuid": "51302d9d-94e5-493b-90e8-16510180d6d6",
           "width": 64,
-          "x": 1168,
-          "y": -1661,
+          "x": 1627,
+          "y": -567,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24370,8 +24517,8 @@
           "name": "block",
           "persistentUuid": "e8b3f6a2-ccc2-4dab-a838-72ef64a34b01",
           "width": 64,
-          "x": 389,
-          "y": -2528,
+          "x": 848,
+          "y": -1434,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24386,8 +24533,8 @@
           "name": "block",
           "persistentUuid": "6113de91-bf8d-4227-8488-9d80de2b4a4c",
           "width": 18,
-          "x": -214,
-          "y": -1900,
+          "x": 244.99998474121094,
+          "y": -806,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24402,8 +24549,8 @@
           "name": "block",
           "persistentUuid": "76b0cd36-7b4d-43cc-9650-2ddc1192b9b8",
           "width": 24,
-          "x": -146,
-          "y": -2074,
+          "x": 313,
+          "y": -980,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24418,8 +24565,8 @@
           "name": "block",
           "persistentUuid": "f1dfd549-3501-4f2f-a2b2-546867f243bd",
           "width": 18,
-          "x": 173,
-          "y": -1769,
+          "x": 632,
+          "y": -675,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24434,8 +24581,8 @@
           "name": "block",
           "persistentUuid": "6f60f022-603a-44d6-9f9e-c5eb86e47266",
           "width": 18,
-          "x": -448,
-          "y": -1766,
+          "x": 11,
+          "y": -672,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24450,8 +24597,8 @@
           "name": "block",
           "persistentUuid": "4822f54a-2c53-417b-a67a-65af9ee37606",
           "width": 18,
-          "x": -725.5,
-          "y": -1754.5,
+          "x": -266.5,
+          "y": -660.5,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -24660,8 +24807,8 @@
           "name": "monster_goblin",
           "persistentUuid": "7b20737c-6b05-4302-82ec-1cf97634ee44",
           "width": 0,
-          "x": 1774,
-          "y": -547,
+          "x": 2233,
+          "y": 547,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -24676,8 +24823,8 @@
           "name": "monster_goblin",
           "persistentUuid": "8f6c1354-ce3e-457d-ad01-4014845a04ec",
           "width": 0,
-          "x": 186,
-          "y": -238,
+          "x": 645,
+          "y": 856,
           "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
@@ -24692,8 +24839,8 @@
           "name": "monster_goblin",
           "persistentUuid": "7abaaecf-b56a-4a8f-b21d-87121b79c0d8",
           "width": 0,
-          "x": 574.3758544921875,
-          "y": -1790.75,
+          "x": 1033.3758544921875,
+          "y": -696.75,
           "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
@@ -24708,8 +24855,8 @@
           "name": "monster_goblin",
           "persistentUuid": "2c4082a1-79b8-481e-92ab-4c3ef0480843",
           "width": 0,
-          "x": -225.62420654296875,
-          "y": -1543.130859375,
+          "x": 233.3757781982422,
+          "y": -449.130859375,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -24724,8 +24871,8 @@
           "name": "monster_goblin",
           "persistentUuid": "676ecffb-5d7b-4126-a4f7-c8afb6552ee7",
           "width": 0,
-          "x": 919,
-          "y": -1374,
+          "x": 1378,
+          "y": -280,
           "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
@@ -24740,8 +24887,8 @@
           "name": "monster_goblin",
           "persistentUuid": "26c9eefb-374b-4390-ac2b-43dbe65c40e0",
           "width": 0,
-          "x": 619,
-          "y": -1022,
+          "x": 1078,
+          "y": 72,
           "zOrder": 65,
           "numberProperties": [],
           "stringProperties": [],
@@ -24756,8 +24903,8 @@
           "name": "monster_goblin",
           "persistentUuid": "200d2577-ad4f-487b-ba3a-4c17f9065b4c",
           "width": 0,
-          "x": -849.4337158203125,
-          "y": -1295.51171875,
+          "x": -390.4337158203125,
+          "y": -201.51171875,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -24772,8 +24919,8 @@
           "name": "monster_goblin",
           "persistentUuid": "ad1b0a75-eb7d-4202-9048-e4922de0ebd7",
           "width": 0,
-          "x": 664.85205078125,
-          "y": -128.84521484375,
+          "x": 1123.85205078125,
+          "y": 965.15478515625,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -24788,8 +24935,8 @@
           "name": "monster_goblin",
           "persistentUuid": "a9add883-d860-4540-80e2-4227cda8b3c9",
           "width": 0,
-          "x": 175.733642578125,
-          "y": 475.2841796875,
+          "x": 596,
+          "y": 1405,
           "zOrder": 68,
           "numberProperties": [],
           "stringProperties": [],
@@ -24804,8 +24951,8 @@
           "name": "monster_goblin",
           "persistentUuid": "2260022a-fe19-40ef-9639-55de4223f483",
           "width": 0,
-          "x": 1009.0670166015625,
-          "y": -91.382568359375,
+          "x": 1468.0670166015625,
+          "y": 1002.617431640625,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -24921,8 +25068,8 @@
           "name": "NewSprite7",
           "persistentUuid": "9425d117-731b-4014-90e6-26d662e9960d",
           "width": 0,
-          "x": -992,
-          "y": -1888,
+          "x": -533,
+          "y": -794,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -24937,8 +25084,8 @@
           "name": "NewSprite9",
           "persistentUuid": "0344e0d1-d250-4a8b-bf20-434d4db840c4",
           "width": 0,
-          "x": -433,
-          "y": -1765,
+          "x": 26,
+          "y": -671,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -24953,8 +25100,8 @@
           "name": "NewSprite11",
           "persistentUuid": "661392f3-b45b-47fd-9298-9ad090bf99b8",
           "width": 0,
-          "x": -54,
-          "y": -1620,
+          "x": 405,
+          "y": -526,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -24969,8 +25116,8 @@
           "name": "NewSprite15",
           "persistentUuid": "49786fc4-91eb-4cb6-b46f-3124baa5839f",
           "width": 91.58333587646484,
-          "x": 367.468505859375,
-          "y": 241.332275390625,
+          "x": 826.468505859375,
+          "y": 1335.332275390625,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -24985,8 +25132,8 @@
           "name": "NewSprite15",
           "persistentUuid": "2db702d4-a0e5-4ab0-8f44-00911e7bbe6d",
           "width": 91.58333587646484,
-          "x": 1341.381591796875,
-          "y": -310.841552734375,
+          "x": 1800.381591796875,
+          "y": 783.158447265625,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25001,8 +25148,8 @@
           "name": "NewSprite15",
           "persistentUuid": "73f6496f-ed4f-453c-88ae-2db4649e4adc",
           "width": 91.58333587646484,
-          "x": 432.6859130859375,
-          "y": -1267.36328125,
+          "x": 891.6859130859375,
+          "y": -173.36328125,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25017,8 +25164,8 @@
           "name": "NewSprite15",
           "persistentUuid": "18852098-0f19-455b-b5db-6ef3bb15ca14",
           "width": 91.58333587646484,
-          "x": -802.0966796875,
-          "y": -845.624267578125,
+          "x": -343.0966796875,
+          "y": 248.375732421875,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25033,8 +25180,8 @@
           "name": "NewSprite16",
           "persistentUuid": "fa801692-9dc3-4b23-b99b-19466850f9fe",
           "width": 131,
-          "x": 1108.0374755859375,
-          "y": 554.931396484375,
+          "x": 1567.0374755859375,
+          "y": 1648.931396484375,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25049,8 +25196,8 @@
           "name": "NewSprite16",
           "persistentUuid": "b5f75691-0605-4b19-a81d-5a023689f434",
           "width": 131,
-          "x": 1348.778076171875,
-          "y": -445.068603515625,
+          "x": 1807.778076171875,
+          "y": 648.931396484375,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25065,8 +25212,8 @@
           "name": "NewSprite16",
           "persistentUuid": "d01e100f-12b6-42ce-b5eb-62bd502721c6",
           "width": 131,
-          "x": 767.296630859375,
-          "y": -882.10546875,
+          "x": 1226.296630859375,
+          "y": 211.89453125,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25081,8 +25228,8 @@
           "name": "NewSprite16",
           "persistentUuid": "071f44ae-8f7c-402f-90e5-17422e2242f9",
           "width": 131,
-          "x": -310.4811096191406,
-          "y": -1215.43896484375,
+          "x": 148.5188751220703,
+          "y": -121.43896484375,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25097,8 +25244,8 @@
           "name": "NewSprite16",
           "persistentUuid": "26237141-c6aa-4621-b791-c41529e0a51f",
           "width": 131,
-          "x": -805,
-          "y": -1135.984375,
+          "x": -346,
+          "y": -41.984375,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -25113,8 +25260,8 @@
           "name": "NewSprite16",
           "persistentUuid": "ab1dba2c-2ca4-4548-8cdc-369e75e2e74f",
           "width": 131,
-          "x": -805,
-          "y": -1135.984375,
+          "x": -346,
+          "y": -41.984375,
           "zOrder": 2002,
           "numberProperties": [],
           "stringProperties": [],
@@ -25129,8 +25276,8 @@
           "name": "npc1",
           "persistentUuid": "64692d9f-bfba-4c79-8c64-ba3e8affd19e",
           "width": 0,
-          "x": -1009.0289306640625,
-          "y": -5.3245391845703125,
+          "x": 1424.9710693359375,
+          "y": 1667.6754150390625,
           "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
@@ -28030,6 +28177,29 @@
                 "NewSprite17"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "pilih_stage",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"jeda_\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -28165,7 +28335,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n//  f1 = 0\n//  f2 = 0\n//  f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 && f2 == 0 && f3 == 0){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f3);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f3 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
@@ -28255,6 +28425,16 @@
                         "\"menang\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "perahu"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -28275,6 +28455,19 @@
               "parameters": [
                 "is_win",
                 "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"jeda_\"",
+                ">=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -28381,7 +28574,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 && f2 == 0 && f3 == 0){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f3);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f3 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -33091,7 +33284,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "TextChatLayer",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -33124,7 +33317,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "senbunyi",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -33154,7 +33347,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.2700000000000002,
+        "zoomFactor": 0.29,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -33232,8 +33425,8 @@
           "name": "player",
           "persistentUuid": "c023472e-46d0-4acd-95c1-b10faa7ebb1c",
           "width": 80,
-          "x": 694.4537353515625,
-          "y": -951.835205078125,
+          "x": 1320.4537353515625,
+          "y": -282.8351745605469,
           "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
@@ -33493,8 +33686,8 @@
           "name": "block",
           "persistentUuid": "89b450fb-b651-4ce1-99c2-628dcfed53b6",
           "width": 132,
-          "x": 588,
-          "y": 233,
+          "x": 1214,
+          "y": 902,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33509,8 +33702,8 @@
           "name": "block",
           "persistentUuid": "365738c2-664e-47e8-8bf8-cbb607c432ff",
           "width": 462,
-          "x": 1209,
-          "y": 886,
+          "x": 1835,
+          "y": 1555,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33525,8 +33718,8 @@
           "name": "block",
           "persistentUuid": "3096bdee-1eea-4c14-a747-ebaef880f90b",
           "width": 627,
-          "x": 817.5,
-          "y": 325.5,
+          "x": 1443.5,
+          "y": 994.5,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33541,8 +33734,8 @@
           "name": "block",
           "persistentUuid": "f34b9198-6924-4e80-b808-a84d1ed03193",
           "width": 64,
-          "x": 1123,
-          "y": 642,
+          "x": 1749,
+          "y": 1311,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33557,8 +33750,8 @@
           "name": "block",
           "persistentUuid": "f3e751be-2f10-415d-8243-a38094e7d111",
           "width": 64,
-          "x": 1417,
-          "y": 412,
+          "x": 2043,
+          "y": 1081,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33573,8 +33766,8 @@
           "name": "block",
           "persistentUuid": "6bdcb9a3-4a6c-4ead-aa30-143b6601ddab",
           "width": 304,
-          "x": 1573,
-          "y": 544,
+          "x": 2199,
+          "y": 1213,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33589,8 +33782,8 @@
           "name": "block",
           "persistentUuid": "1b4a48a6-f07c-4995-9b41-237a9395750e",
           "width": 74,
-          "x": 1912,
-          "y": 236,
+          "x": 2538,
+          "y": 905,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33605,8 +33798,8 @@
           "name": "block",
           "persistentUuid": "ee6a54d6-ac47-4aac-8e49-f706807c970c",
           "width": 1384,
-          "x": 1465,
-          "y": -229,
+          "x": 2091,
+          "y": 440,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33621,8 +33814,8 @@
           "name": "block",
           "persistentUuid": "7d3f9cf7-f417-432d-a8d6-b43dacd68d1a",
           "width": 72,
-          "x": 1830.5,
-          "y": -1242.5,
+          "x": 2456.5,
+          "y": -573.5,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33637,8 +33830,8 @@
           "name": "block",
           "persistentUuid": "16d6214c-6eca-445c-99ab-eec2c55a3be1",
           "width": 237,
-          "x": 1429.5,
-          "y": -867.5,
+          "x": 2055.5,
+          "y": -198.49996948242188,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33653,8 +33846,8 @@
           "name": "block",
           "persistentUuid": "44285d24-8656-44dd-9a83-3779195fdaec",
           "width": 69,
-          "x": 1305,
-          "y": -982,
+          "x": 1931,
+          "y": -313,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33669,8 +33862,8 @@
           "name": "block",
           "persistentUuid": "ff33a844-36ad-4879-a231-06b8b19b6c35",
           "width": 237,
-          "x": 986.5,
-          "y": -706.5,
+          "x": 1612.5,
+          "y": -37.499969482421875,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33685,8 +33878,8 @@
           "name": "block",
           "persistentUuid": "8db831bf-6df2-4dca-b8a9-d725ba26148f",
           "width": 69,
-          "x": 758.5,
-          "y": -929.5,
+          "x": 1384.5,
+          "y": -260.4999694824219,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33701,8 +33894,8 @@
           "name": "block",
           "persistentUuid": "3c690000-b108-4572-bc66-56ca7302d9ab",
           "width": 379,
-          "x": 255.5,
-          "y": -445.5,
+          "x": 881.5,
+          "y": 223.50003051757812,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33717,8 +33910,8 @@
           "name": "block",
           "persistentUuid": "3bfca1be-13ce-4bed-8407-e862b0cdcafb",
           "width": 85,
-          "x": 71.5,
-          "y": -615.5,
+          "x": 697.5,
+          "y": 53.500030517578125,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33733,8 +33926,8 @@
           "name": "block",
           "persistentUuid": "2f13b6e8-5e40-41ba-9180-98e739de2ec4",
           "width": 64,
-          "x": 995,
-          "y": -54,
+          "x": 1621,
+          "y": 615,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33749,8 +33942,8 @@
           "name": "block",
           "persistentUuid": "61e86659-0784-4e44-b829-523192f18212",
           "width": 64,
-          "x": 587,
-          "y": -105,
+          "x": 1213,
+          "y": 564,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33765,8 +33958,8 @@
           "name": "block",
           "persistentUuid": "715b7054-faf0-4206-8dfa-0a551905adbd",
           "width": 659,
-          "x": 135.5,
-          "y": -262.5,
+          "x": 761.5,
+          "y": 406.5,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33781,8 +33974,8 @@
           "name": "block",
           "persistentUuid": "9de13e62-fdd1-4057-89ac-9c855eb13e8e",
           "width": 1220,
-          "x": -769,
-          "y": 369,
+          "x": -143,
+          "y": 1038,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -33863,8 +34056,8 @@
           "name": "nearEvent",
           "persistentUuid": "9ddddc15-8dae-4832-8657-a3185a9dcd7c",
           "width": 262,
-          "x": 686.9568481445312,
-          "y": -942.291748046875,
+          "x": 1312.956787109375,
+          "y": -273.2917175292969,
           "zOrder": 50,
           "numberProperties": [],
           "stringProperties": [],
@@ -33991,8 +34184,8 @@
           "name": "monster_bat",
           "persistentUuid": "f1281c80-3e6c-4971-98ac-8023ab67170b",
           "width": 0,
-          "x": 884,
-          "y": 215,
+          "x": 1510,
+          "y": 884,
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -34007,8 +34200,8 @@
           "name": "monster_bat",
           "persistentUuid": "0b01b372-7b17-474e-95ec-cee028727f10",
           "width": 0,
-          "x": 1295,
-          "y": 207,
+          "x": 1921,
+          "y": 876,
           "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
@@ -34023,8 +34216,8 @@
           "name": "monster_bat",
           "persistentUuid": "9119684e-6464-4f63-a2d0-d8e50e5cd9a3",
           "width": 0,
-          "x": 1933,
-          "y": -850,
+          "x": 2559,
+          "y": -180.99996948242188,
           "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
@@ -34039,8 +34232,8 @@
           "name": "monster_bat",
           "persistentUuid": "fc83de41-9a27-4aef-8546-edee2fa61490",
           "width": 0,
-          "x": 1729,
-          "y": -384,
+          "x": 2355,
+          "y": 285.0000305175781,
           "zOrder": 77,
           "numberProperties": [],
           "stringProperties": [],
@@ -34055,8 +34248,8 @@
           "name": "monster_bat",
           "persistentUuid": "09b001b2-470f-4d2e-aae3-c85602cb0dee",
           "width": 0,
-          "x": 1229,
-          "y": -629,
+          "x": 1855,
+          "y": 40.000030517578125,
           "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
@@ -34071,8 +34264,8 @@
           "name": "monster_bat",
           "persistentUuid": "02dfd986-1b6e-4b07-aec7-ce84faf99912",
           "width": 0,
-          "x": 580,
-          "y": -468,
+          "x": 1206,
+          "y": 201.00003051757812,
           "zOrder": 75,
           "numberProperties": [],
           "stringProperties": [],
@@ -34087,8 +34280,8 @@
           "name": "monster_bat",
           "persistentUuid": "4fd2da35-e9f8-40f3-a591-0590b3fea146",
           "width": 0,
-          "x": 1901,
-          "y": 153,
+          "x": 2527,
+          "y": 822,
           "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
@@ -34103,8 +34296,8 @@
           "name": "monster_bat",
           "persistentUuid": "baab31e0-5097-4eef-8d1c-32c9e6f28c28",
           "width": 0,
-          "x": 184,
-          "y": 461,
+          "x": 810,
+          "y": 1130,
           "zOrder": 71,
           "numberProperties": [],
           "stringProperties": [],
@@ -34119,8 +34312,8 @@
           "name": "monster_bat",
           "persistentUuid": "6b5a95ca-eb48-4453-9188-aa3a0a7916f4",
           "width": 0,
-          "x": 543.170166015625,
-          "y": 838.0197143554688,
+          "x": 1252,
+          "y": 1142,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -34135,8 +34328,8 @@
           "name": "monster_bat",
           "persistentUuid": "0b27a328-a3ed-4860-99c2-aa97b66f4c3b",
           "width": 0,
-          "x": -117,
-          "y": 47,
+          "x": 509,
+          "y": 716,
           "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
@@ -34252,8 +34445,8 @@
           "name": "NewSprite6",
           "persistentUuid": "724b23ad-8f7d-4614-9b91-f5d49470655e",
           "width": 0,
-          "x": 465,
-          "y": -915,
+          "x": 1091,
+          "y": -245.99996948242188,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -34268,8 +34461,8 @@
           "name": "NewSprite10",
           "persistentUuid": "19f6382c-f3f2-4a55-8ddd-0d3c23aded96",
           "width": 0,
-          "x": -159,
-          "y": -237,
+          "x": 467,
+          "y": 432,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -34284,8 +34477,8 @@
           "name": "NewSprite15",
           "persistentUuid": "d51769f3-7b50-4206-a37b-40cd9fe3fe46",
           "width": 91.58333587646484,
-          "x": 106.6424560546875,
-          "y": 687.4192504882812,
+          "x": 732.6424560546875,
+          "y": 1356.4193115234375,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -34300,8 +34493,8 @@
           "name": "NewSprite15",
           "persistentUuid": "ae8df588-dd47-41d0-b13a-2a3b31e9b754",
           "width": 91.58333587646484,
-          "x": 1128.381591796875,
-          "y": -212.5806884765625,
+          "x": 1754.381591796875,
+          "y": 456.4193115234375,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -34316,8 +34509,8 @@
           "name": "NewSprite15",
           "persistentUuid": "fc9ab6cd-250b-4f3f-a377-b87997606946",
           "width": 91.58333587646484,
-          "x": 1650.12060546875,
-          "y": 191.76708984375,
+          "x": 2276.12060546875,
+          "y": 860.76708984375,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -34332,8 +34525,8 @@
           "name": "NewSprite16",
           "persistentUuid": "e59568e6-9a4b-48d2-a849-7d016bf94440",
           "width": 131,
-          "x": 132.1651611328125,
-          "y": 179.329833984375,
+          "x": 758.1651611328125,
+          "y": 848.329833984375,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -34348,8 +34541,8 @@
           "name": "NewSprite16",
           "persistentUuid": "ee820e65-e0aa-4e53-8d4d-6cc86a8dac28",
           "width": 194.87477111816406,
-          "x": 1212.125244140625,
-          "y": -533,
+          "x": 1838.125244140625,
+          "y": 136.00003051757812,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -34364,8 +34557,8 @@
           "name": "npc1",
           "persistentUuid": "64692d9f-bfba-4c79-8c64-ba3e8affd19e",
           "width": 0,
-          "x": -100.02894592285156,
-          "y": 821.6754760742188,
+          "x": 525.9710693359375,
+          "y": 1490.675537109375,
           "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
@@ -34383,6 +34576,22 @@
           "x": 739,
           "y": 176,
           "zOrder": 2003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "perahu",
+          "persistentUuid": "76414701-761f-404c-8a0b-4ccd53b81c44",
+          "width": 0,
+          "x": 1534,
+          "y": 1601,
+          "zOrder": 2004,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37177,6 +37386,46 @@
               ]
             }
           ]
+        },
+        {
+          "name": "perahu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1213.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -37263,6 +37512,17 @@
               },
               "parameters": [
                 "NewSprite17"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"jeda_\""
               ],
               "subInstructions": []
             }
@@ -37400,7 +37660,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n//  f1 = 0\n//  f2 = 0\n//  f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 && f2 == 0 && f3 == 0){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f2 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
@@ -37512,6 +37772,19 @@
                 "True"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"jeda_\"",
+                ">=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [],
@@ -37556,12 +37829,22 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Scene"
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "is_win",
+                    "False"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
                   },
                   "parameters": [
                     "",
-                    "\"Main Menu\"",
-                    ""
+                    "\"menang\""
                   ],
                   "subInstructions": []
                 }
@@ -37616,7 +37899,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 && f2 == 0 && f3 == 0){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f2 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -38091,7 +38374,7 @@
                       },
                       "parameters": [
                         "nearEvent",
-                        "monster_slime",
+                        "perahu",
                         "",
                         "",
                         ""
@@ -38104,7 +38387,7 @@
                         "value": "Visible"
                       },
                       "parameters": [
-                        "monster_slime"
+                        "perahu"
                       ],
                       "subInstructions": []
                     }
@@ -38285,7 +38568,7 @@
                           },
                           "parameters": [
                             "nearEvent",
-                            "monster_slime",
+                            "perahu",
                             "",
                             "",
                             ""
@@ -38298,7 +38581,7 @@
                             "value": "Visible"
                           },
                           "parameters": [
-                            "monster_slime"
+                            "perahu"
                           ],
                           "subInstructions": []
                         },
@@ -38339,33 +38622,10 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "GlobalVariablePushNumber"
-                          },
-                          "parameters": [
-                            "monster_slime",
-                            "monster_slime.ZOrder()"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "TextObject::String"
-                          },
-                          "parameters": [
-                            "textLog",
-                            "=",
-                            "\"EA FIGHT\" + GlobalVariableString(monster_slime[0])"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "ModVarGlobal"
                           },
                           "parameters": [
-                            "fight_style",
+                            "pilih_stage",
                             "=",
                             "2"
                           ],
@@ -38378,7 +38638,7 @@
                           },
                           "parameters": [
                             "",
-                            "\"map122\"",
+                            "\"map1232\"",
                             "yes"
                           ],
                           "subInstructions": []
@@ -38479,6 +38739,18 @@
                             "fight_style",
                             "=",
                             "3 + Random(1)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "pilih_stage",
+                            "=",
+                            "2"
                           ],
                           "subInstructions": []
                         },
@@ -42359,7 +42631,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "senbunyi",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -42389,7 +42661,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.1499999999999996,
+        "zoomFactor": 0.22999999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -42467,8 +42739,8 @@
           "name": "player",
           "persistentUuid": "c023472e-46d0-4acd-95c1-b10faa7ebb1c",
           "width": 80,
-          "x": 1112.4537353515625,
-          "y": 1518.164794921875,
+          "x": 1118.4537353515625,
+          "y": 1515.164794921875,
           "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
@@ -44383,8 +44655,8 @@
           "name": "npc1",
           "persistentUuid": "64692d9f-bfba-4c79-8c64-ba3e8affd19e",
           "width": 0,
-          "x": 982.9710693359375,
-          "y": 1434.6754150390625,
+          "x": 964.9710693359375,
+          "y": 1418.6754150390625,
           "zOrder": 105,
           "numberProperties": [],
           "stringProperties": [],
@@ -44402,6 +44674,22 @@
           "x": 739,
           "y": 176,
           "zOrder": 2003,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "perahu",
+          "persistentUuid": "8c76d03a-02f2-4d6a-bfc7-bfe99ffb534d",
+          "width": 0,
+          "x": 890,
+          "y": 1573,
+          "zOrder": 2004,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -47196,6 +47484,46 @@
               ]
             }
           ]
+        },
+        {
+          "name": "perahu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1212.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -47282,6 +47610,29 @@
               },
               "parameters": [
                 "NewSprite17"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "pilih_stage",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"jeda_\""
               ],
               "subInstructions": []
             }
@@ -47419,7 +47770,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::JsCode",
-              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n//  f1 = 0\n//  f2 = 0\n//  f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 && f2 == 0 && f3 == 0){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+              "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
               "parameterObjects": "",
               "useStrict": true,
               "eventsSheetExpanded": false
@@ -47509,6 +47860,16 @@
                         "\"menang\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "perahu"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -47529,6 +47890,19 @@
               "parameters": [
                 "is_win",
                 "True"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"jeda_\"",
+                ">=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -47575,12 +47949,22 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Scene"
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "is_win",
+                    "False"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "HideLayer"
                   },
                   "parameters": [
                     "",
-                    "\"Main Menu\"",
-                    ""
+                    "\"menang\""
                   ],
                   "subInstructions": []
                 }
@@ -47635,7 +48019,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 && f2 == 0 && f3 == 0){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
+          "inlineCode": "var f1 = 10;\nvar f2 = 10;\nvar f3 = 10;\n\n\nvar ea = runtimeScene.getGame().getVariables().get(\"monster_slime\").getAllChildrenArray();\nvar slime = runtimeScene.getObjects(\"monster_slime\");\nvar bat = runtimeScene.getObjects(\"monster_bat\");\nvar gob = runtimeScene.getObjects(\"monster_goblin\");\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(ea.length); \n//  if(ea.length > 0){\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(ea[0].getAsNumber());\n//  }\n\n\nfor(let z=0;z<ea.length;z++){ \nfor(let x=0;x<slime.length;x++){\n    //slime[x].hide();\n    if(slime[x].getZOrder() == ea[z].getAsNumber()){\n        slime[x].hide();\n        f1 = f1 - 1;\n    }\n}\n\nfor(let x=0;x<bat.length;x++){\n    //slime[x].hide();\n    if(bat[x].getZOrder() == ea[z].getAsNumber()){\n        bat[x].hide();\n        f2 = f2 - 1;\n    }\n}\n\n\nfor(let x=0;x<gob.length;x++){\n    //slime[x].hide();\n    if(gob[x].getZOrder() == ea[z].getAsNumber()){\n        gob[x].hide();\n        f3 = f3 - 1;\n    }\n}\n}\n\n  runtimeScene.getObjects(\"value_monster\")[0].setString(f1);\n//  runtimeScene.getObjects(\"value_monster\")[1].setString(f2);\n//  runtimeScene.getObjects(\"value_monster\")[2].setString(f3);\n// f1 = 0\n// f2 = 0\n// f3 = 0\nvar isw = runtimeScene.getGame().getVariables().get(\"is_win\");\nif(f1 == 0 ){isw.setBoolean(true); }else {isw.setBoolean(false)}\n\n\n \n",
           "parameterObjects": "",
           "useStrict": true,
           "eventsSheetExpanded": false
@@ -48110,6 +48494,61 @@
                       },
                       "parameters": [
                         "nearEvent",
+                        "perahu",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "perahu"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "showGUIBT",
+                        "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SeparateFromObjects"
+                      },
+                      "parameters": [
+                        "player",
+                        "monster_slime",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "nearEvent",
                         "monster_slime",
                         "",
                         "",
@@ -48294,6 +48733,106 @@
                     }
                   ],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "nearEvent",
+                            "perahu",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Visible"
+                          },
+                          "parameters": [
+                            "perahu"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "gui_bt",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "MouseButtonPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "pilih_stage",
+                            "=",
+                            "2"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "value_health_bar",
+                            "=",
+                            "GlobalVariable(max_health_bar)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Scene"
+                          },
+                          "parameters": [
+                            "",
+                            "\"map123\"",
+                            "yes"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -48659,7 +49198,6 @@
                   "events": []
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -52356,7 +52894,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "menang",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -61496,6 +62034,648 @@
       "layers": [
         {
           "ambientLightColorB": 8452432,
+          "ambientLightColorG": 150995054,
+          "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 195,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "LEVEL",
+      "name": "LEVEL",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 155,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 212,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.7599999999999998,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite",
+          "persistentUuid": "d35e561e-94fe-463a-8d8c-0698fd0a0437",
+          "width": 0,
+          "x": -4,
+          "y": -3,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "satu",
+          "persistentUuid": "0b0b602f-4f17-4475-b039-b8e6caba46b2",
+          "width": 0,
+          "x": 98,
+          "y": 181,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "dua",
+          "persistentUuid": "df32b92a-32a5-45fb-8652-2cccbad7dfff",
+          "width": 0,
+          "x": 359,
+          "y": 318,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "tiga",
+          "persistentUuid": "25bd5e9e-a043-4c9f-83c8-a74a07924b33",
+          "width": 0,
+          "x": 666,
+          "y": 202,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46.04316711425781,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite2",
+          "persistentUuid": "b4fc3868-4b8d-42b5-8474-613c56f206a7",
+          "width": 40,
+          "x": 431,
+          "y": 352.95684814453125,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 46.04316711425781,
+          "layer": "",
+          "locked": false,
+          "name": "NewSprite2",
+          "persistentUuid": "3db3a216-74f9-407f-95be-a5d4fa886c6d",
+          "width": 40,
+          "x": 742,
+          "y": 234.9568328857422,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1162.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "satu",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1172.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dua",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1182.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "tiga",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1192.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NewSprite2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Asset 1202.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "progres_level",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "satu",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"map12\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "progres_level",
+                ">=",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Plan"
+                  },
+                  "parameters": [
+                    "NewSprite2",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "NewSprite2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "dua",
+                    "",
+                    "yes",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"map123\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "progres_level",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Plan"
+                  },
+                  "parameters": [
+                    "NewSprite2",
+                    "=",
+                    "6"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "NewSprite2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "tiga",
+                    "",
+                    "yes",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"map1232\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 15059856,
           "ambientLightColorG": 150995054,
           "ambientLightColorR": 1869182049,
           "followBaseLayerCamera": false,
