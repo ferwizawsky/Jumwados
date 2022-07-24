@@ -24591,6 +24591,16 @@
               "parameters": [
                 "panduan_view"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "setMenu",
+                "=",
+                "1"
+              ]
             }
           ]
         },
@@ -24599,6 +24609,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "MEENU BAGIAN",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24677,6 +24688,7 @@
           "parameters": []
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -24835,18 +24847,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeScale"
-                  },
-                  "parameters": [
-                    "logo",
-                    "-",
-                    "TimeDelta() "
-                  ]
-                }
-              ]
+              "actions": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -24862,18 +24863,7 @@
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "setMenu",
-                    "=",
-                    "1"
-                  ]
-                }
-              ]
+              "actions": []
             }
           ]
         },
