@@ -23,7 +23,7 @@
     "author": "Math Knight",
     "windowWidth": 960,
     "windowHeight": 540,
-    "latestCompilationDirectory": "C:\\xampp\\htdocs\\qw",
+    "latestCompilationDirectory": "C:\\xampp\\htdocs\\111",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -8699,7 +8699,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "SELECT CHAR",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9039,7 +9038,7 @@
                       "parameters": [
                         "harga",
                         "=",
-                        "GlobalVariableString(hargahero)"
+                        "\"6000\""
                       ]
                     },
                     {
@@ -9232,7 +9231,7 @@
                       "parameters": [
                         "harga",
                         "=",
-                        "GlobalVariableString(hargahero)"
+                        "\"7000\"\n"
                       ]
                     },
                     {
@@ -9429,7 +9428,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "BELI HERO",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9622,7 +9620,7 @@
                           "parameters": [
                             "koin",
                             "-",
-                            "GlobalVariable(hargahero)"
+                            "6000\n"
                           ]
                         },
                         {
@@ -9751,7 +9749,7 @@
                           "parameters": [
                             "koin",
                             "-",
-                            "GlobalVariable(hargahero)"
+                            "7000\n"
                           ]
                         },
                         {
@@ -11099,7 +11097,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "CARAMAIN",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
